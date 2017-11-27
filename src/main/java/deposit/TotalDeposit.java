@@ -248,7 +248,7 @@ public class TotalDeposit {
 			for (OrderItem orderItem:order.getOrderItems()){
 				if (orderItem.getProductType() == ProductType.JEWELRY){
 					totalJewelryPrice += orderItem.getTotalPrice();
-					jewelryCount++;
+					jewelryCount += orderItem.getQuantity();
 				}
 			}
 			
