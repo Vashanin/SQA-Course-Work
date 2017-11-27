@@ -262,8 +262,7 @@ public class TotalDeposit {
 		return false;
 	}
 	
-	private double getShippingRate(ProductType productType,
-			ShipmentType shipmentType){
+	private double getShippingRate(ProductType productType, ShipmentType shipmentType){
 		switch (productType){
 			case BOOKS:
 				switch (shipmentType){
