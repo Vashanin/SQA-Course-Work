@@ -1,0 +1,1159 @@
+# ACTS Test Suite Generation: Sun Nov 19 13:37:54 EET 2017
+#  '*' represents don't care value 
+# Degree of interaction coverage: 3
+# Number of parameters: 7
+# Maximum number of values per parameter: 18
+# Number of configurations: 1152
+product,price,ship,quantity,giftWrap,time,jewelry2
+book,0,domestic,0,true,15.12.2017,true
+book,0,domestic expedited,1,false,16.12.2017,false
+book,0,international,2,true,15.01.2018,false
+book,0,international expedited,0,false,16.01.2018,true
+book,0,domestic,1,true,30.03.2018,false
+book,0,domestic expedited,2,false,31.03.2018,true
+book,0,international,0,false,30.09.2018,false
+book,0,international expedited,1,true,01.10.2018,true
+music,0,domestic expedited,2,true,15.12.2017,false
+music,0,domestic,0,false,16.12.2017,true
+music,0,international expedited,1,false,15.01.2018,false
+music,0,international,1,true,16.01.2018,true
+music,0,domestic expedited,0,false,30.03.2018,true
+music,0,domestic,2,true,31.03.2018,false
+music,0,international expedited,2,true,30.09.2018,true
+music,0,international,0,false,01.10.2018,false
+video,0,international,1,false,15.12.2017,true
+video,0,international expedited,2,true,16.12.2017,false
+video,0,domestic,0,true,15.01.2018,true
+video,0,domestic expedited,2,false,16.01.2018,false
+video,0,international,2,true,30.03.2018,true
+video,0,international expedited,1,false,31.03.2018,false
+video,0,domestic,1,false,30.09.2018,true
+video,0,domestic expedited,0,true,01.10.2018,false
+jewelry,0,international expedited,0,true,15.12.2017,false
+jewelry,0,international,1,false,16.12.2017,true
+jewelry,0,domestic expedited,2,false,15.01.2018,true
+jewelry,0,domestic,0,true,16.01.2018,false
+jewelry,0,international expedited,1,false,30.03.2018,false
+jewelry,0,international,0,true,31.03.2018,true
+jewelry,0,domestic expedited,1,true,30.09.2018,false
+jewelry,0,domestic,2,false,01.10.2018,true
+clothing,0,domestic,2,false,15.12.2017,false
+clothing,0,domestic expedited,0,true,16.12.2017,true
+clothing,0,international,1,true,15.01.2018,true
+clothing,0,international expedited,2,true,16.01.2018,false
+clothing,0,domestic,0,false,30.03.2018,true
+clothing,0,domestic expedited,1,false,31.03.2018,false
+clothing,0,international,2,false,30.09.2018,true
+clothing,0,international expedited,0,false,01.10.2018,false
+furniture,0,domestic,1,true,15.12.2017,false
+furniture,0,domestic expedited,2,false,16.12.2017,true
+furniture,0,international,0,false,15.01.2018,false
+furniture,0,international expedited,1,false,16.01.2018,true
+furniture,0,domestic,2,false,30.03.2018,false
+furniture,0,domestic expedited,0,true,31.03.2018,true
+furniture,0,international,1,true,30.09.2018,true
+furniture,0,international expedited,2,true,01.10.2018,false
+watches,0,domestic,0,false,15.12.2017,true
+watches,0,domestic expedited,1,true,16.12.2017,false
+watches,0,international,2,true,15.01.2018,true
+watches,0,international expedited,0,true,16.01.2018,false
+watches,0,domestic,1,true,30.03.2018,true
+watches,0,domestic expedited,2,false,31.03.2018,false
+watches,0,international,0,true,30.09.2018,true
+watches,0,international expedited,1,false,01.10.2018,false
+electronics,0,domestic,2,true,15.12.2017,true
+electronics,0,domestic expedited,0,false,16.12.2017,false
+electronics,0,international,1,true,15.01.2018,false
+electronics,0,international expedited,2,false,16.01.2018,true
+electronics,0,domestic,0,true,30.03.2018,false
+electronics,0,domestic expedited,1,true,31.03.2018,true
+electronics,0,international,2,false,30.09.2018,false
+electronics,0,international expedited,0,true,01.10.2018,true
+book,0.01,domestic expedited,1,false,15.12.2017,true
+book,0.01,domestic,2,true,16.12.2017,false
+book,0.01,international expedited,0,false,15.01.2018,true
+book,0.01,international,1,true,16.01.2018,false
+book,0.01,domestic expedited,2,true,30.03.2018,true
+book,0.01,domestic,0,false,31.03.2018,false
+book,0.01,international expedited,1,true,30.09.2018,false
+book,0.01,international,2,false,01.10.2018,true
+music,0.01,domestic,1,false,15.12.2017,true
+music,0.01,domestic expedited,0,true,16.12.2017,false
+music,0.01,international,2,true,15.01.2018,true
+music,0.01,international expedited,0,false,16.01.2018,false
+music,0.01,domestic,1,false,30.03.2018,false
+music,0.01,domestic expedited,1,false,31.03.2018,true
+music,0.01,international,0,false,30.09.2018,true
+music,0.01,international expedited,2,true,01.10.2018,false
+video,0.01,international expedited,2,true,15.12.2017,true
+video,0.01,international,0,false,16.12.2017,false
+video,0.01,domestic expedited,1,true,15.01.2018,false
+video,0.01,domestic,2,false,16.01.2018,true
+video,0.01,international expedited,0,true,30.03.2018,true
+video,0.01,international,2,true,31.03.2018,false
+video,0.01,domestic expedited,2,false,30.09.2018,true
+video,0.01,domestic,1,false,01.10.2018,false
+jewelry,0.01,international,2,true,15.12.2017,false
+jewelry,0.01,international expedited,0,false,16.12.2017,true
+jewelry,0.01,domestic,1,true,15.01.2018,false
+jewelry,0.01,domestic expedited,0,false,16.01.2018,true
+jewelry,0.01,international,0,true,30.03.2018,true
+jewelry,0.01,international expedited,2,false,31.03.2018,false
+jewelry,0.01,domestic,0,true,30.09.2018,true
+jewelry,0.01,domestic expedited,1,false,01.10.2018,false
+clothing,0.01,domestic expedited,0,true,15.12.2017,true
+clothing,0.01,domestic,1,false,16.12.2017,false
+clothing,0.01,international expedited,2,true,15.01.2018,true
+clothing,0.01,international,0,false,16.01.2018,false
+clothing,0.01,domestic expedited,1,true,30.03.2018,false
+clothing,0.01,domestic,1,true,31.03.2018,true
+clothing,0.01,international expedited,1,false,30.09.2018,false
+clothing,0.01,international,1,true,01.10.2018,true
+furniture,0.01,domestic expedited,2,false,15.12.2017,true
+furniture,0.01,domestic,0,true,16.12.2017,false
+furniture,0.01,international expedited,1,true,15.01.2018,true
+furniture,0.01,international,2,true,16.01.2018,false
+furniture,0.01,domestic expedited,1,true,30.03.2018,true
+furniture,0.01,domestic,2,false,31.03.2018,false
+furniture,0.01,international expedited,0,false,30.09.2018,false
+furniture,0.01,international,0,false,01.10.2018,true
+watches,0.01,domestic expedited,2,true,15.12.2017,true
+watches,0.01,domestic,2,false,16.12.2017,false
+watches,0.01,international expedited,0,false,15.01.2018,true
+watches,0.01,international,1,false,16.01.2018,false
+watches,0.01,domestic expedited,0,false,30.03.2018,false
+watches,0.01,domestic,1,true,31.03.2018,true
+watches,0.01,international expedited,2,false,30.09.2018,false
+watches,0.01,international,2,true,01.10.2018,true
+electronics,0.01,domestic expedited,0,false,15.12.2017,false
+electronics,0.01,domestic,1,true,16.12.2017,true
+electronics,0.01,international expedited,2,false,15.01.2018,true
+electronics,0.01,international,0,true,16.01.2018,false
+electronics,0.01,domestic expedited,2,false,30.03.2018,true
+electronics,0.01,domestic,0,false,31.03.2018,false
+electronics,0.01,international expedited,1,true,30.09.2018,true
+electronics,0.01,international,1,false,01.10.2018,false
+book,6.66,international,2,true,15.12.2017,false
+book,6.66,international expedited,0,false,16.12.2017,true
+book,6.66,domestic,1,false,15.01.2018,false
+book,6.66,domestic expedited,2,true,16.01.2018,true
+book,6.66,international,0,false,30.03.2018,false
+book,6.66,international expedited,1,true,31.03.2018,true
+book,6.66,domestic,2,true,30.09.2018,true
+book,6.66,domestic expedited,0,true,01.10.2018,false
+music,6.66,international expedited,1,false,15.12.2017,true
+music,6.66,international,2,true,16.12.2017,false
+music,6.66,domestic expedited,0,true,15.01.2018,true
+music,6.66,domestic,1,false,16.01.2018,false
+music,6.66,international expedited,2,true,30.03.2018,true
+music,6.66,international,0,false,31.03.2018,false
+music,6.66,domestic expedited,1,false,30.09.2018,false
+music,6.66,domestic,0,true,01.10.2018,true
+video,6.66,domestic,0,true,15.12.2017,false
+video,6.66,domestic expedited,1,false,16.12.2017,true
+video,6.66,international,2,false,15.01.2018,true
+video,6.66,international expedited,0,true,16.01.2018,false
+video,6.66,domestic,1,false,30.03.2018,false
+video,6.66,domestic expedited,2,false,31.03.2018,true
+video,6.66,international,0,true,30.09.2018,false
+video,6.66,international expedited,2,false,01.10.2018,true
+jewelry,6.66,domestic expedited,1,false,15.12.2017,true
+jewelry,6.66,domestic,2,true,16.12.2017,false
+jewelry,6.66,international expedited,0,false,15.01.2018,true
+jewelry,6.66,international,1,false,16.01.2018,false
+jewelry,6.66,domestic expedited,2,true,30.03.2018,false
+jewelry,6.66,domestic,1,true,31.03.2018,false
+jewelry,6.66,international expedited,2,false,30.09.2018,false
+jewelry,6.66,international,0,true,01.10.2018,true
+clothing,6.66,international,1,true,15.12.2017,true
+clothing,6.66,international expedited,2,false,16.12.2017,false
+clothing,6.66,domestic,0,false,15.01.2018,false
+clothing,6.66,domestic expedited,1,true,16.01.2018,true
+clothing,6.66,international,2,true,30.03.2018,false
+clothing,6.66,international expedited,0,false,31.03.2018,false
+clothing,6.66,domestic,0,true,30.09.2018,false
+clothing,6.66,domestic expedited,2,false,01.10.2018,true
+furniture,6.66,international,0,true,15.12.2017,true
+furniture,6.66,international expedited,1,false,16.12.2017,false
+furniture,6.66,domestic,2,true,15.01.2018,true
+furniture,6.66,domestic expedited,0,false,16.01.2018,false
+furniture,6.66,international,1,true,30.03.2018,true
+furniture,6.66,international expedited,1,true,31.03.2018,true
+furniture,6.66,domestic,2,true,30.09.2018,true
+furniture,6.66,domestic expedited,1,false,01.10.2018,true
+watches,6.66,international,1,true,15.12.2017,false
+watches,6.66,international expedited,0,false,16.12.2017,true
+watches,6.66,domestic,2,true,15.01.2018,false
+watches,6.66,domestic expedited,2,false,16.01.2018,true
+watches,6.66,international,2,true,30.03.2018,false
+watches,6.66,international expedited,0,false,31.03.2018,true
+watches,6.66,domestic,1,true,30.09.2018,false
+watches,6.66,domestic expedited,0,true,01.10.2018,true
+electronics,6.66,international,1,true,15.12.2017,true
+electronics,6.66,international expedited,2,false,16.12.2017,false
+electronics,6.66,domestic,0,true,15.01.2018,false
+electronics,6.66,domestic expedited,1,false,16.01.2018,false
+electronics,6.66,international,1,false,30.03.2018,true
+electronics,6.66,international expedited,2,false,31.03.2018,false
+electronics,6.66,domestic,0,false,30.09.2018,false
+electronics,6.66,domestic expedited,2,false,01.10.2018,false
+book,6.67,international expedited,2,true,15.12.2017,true
+book,6.67,international,0,false,16.12.2017,false
+book,6.67,domestic expedited,1,true,15.01.2018,false
+book,6.67,domestic,0,true,16.01.2018,true
+book,6.67,international expedited,1,false,30.03.2018,true
+book,6.67,international,1,true,31.03.2018,true
+book,6.67,domestic expedited,0,false,30.09.2018,true
+book,6.67,domestic,2,false,01.10.2018,false
+music,6.67,international,0,false,15.12.2017,false
+music,6.67,international expedited,1,true,16.12.2017,true
+music,6.67,domestic,2,false,15.01.2018,true
+music,6.67,domestic expedited,2,false,16.01.2018,false
+music,6.67,international,2,true,30.03.2018,false
+music,6.67,international expedited,0,false,31.03.2018,false
+music,6.67,domestic,1,true,30.09.2018,false
+music,6.67,domestic expedited,1,true,01.10.2018,true
+video,6.67,domestic expedited,1,true,15.12.2017,true
+video,6.67,domestic,2,false,16.12.2017,false
+video,6.67,international expedited,0,true,15.01.2018,false
+video,6.67,international,1,true,16.01.2018,false
+video,6.67,domestic expedited,0,false,30.03.2018,false
+video,6.67,domestic,2,false,31.03.2018,true
+video,6.67,international expedited,2,false,30.09.2018,true
+video,6.67,international,0,true,01.10.2018,false
+jewelry,6.67,domestic,0,true,15.12.2017,true
+jewelry,6.67,domestic expedited,1,false,16.12.2017,false
+jewelry,6.67,international,2,true,15.01.2018,false
+jewelry,6.67,international expedited,2,false,16.01.2018,false
+jewelry,6.67,domestic,0,true,30.03.2018,true
+jewelry,6.67,domestic expedited,1,true,31.03.2018,true
+jewelry,6.67,international,1,true,30.09.2018,false
+jewelry,6.67,international expedited,2,false,01.10.2018,true
+clothing,6.67,international expedited,0,true,15.12.2017,true
+clothing,6.67,international,1,false,16.12.2017,false
+clothing,6.67,domestic expedited,2,false,15.01.2018,false
+clothing,6.67,domestic,1,false,16.01.2018,false
+clothing,6.67,international expedited,0,false,30.03.2018,false
+clothing,6.67,international,2,true,31.03.2018,true
+clothing,6.67,domestic expedited,1,true,30.09.2018,true
+clothing,6.67,domestic,0,true,01.10.2018,true
+furniture,6.67,international expedited,0,true,15.12.2017,true
+furniture,6.67,international,1,false,16.12.2017,false
+furniture,6.67,domestic expedited,2,true,15.01.2018,false
+furniture,6.67,domestic,1,false,16.01.2018,false
+furniture,6.67,international expedited,0,false,30.03.2018,false
+furniture,6.67,international,2,true,31.03.2018,false
+furniture,6.67,domestic expedited,2,false,30.09.2018,false
+furniture,6.67,domestic,0,false,01.10.2018,true
+watches,6.67,international expedited,1,true,15.12.2017,true
+watches,6.67,international,0,false,16.12.2017,false
+watches,6.67,domestic expedited,1,false,15.01.2018,false
+watches,6.67,domestic,2,true,16.01.2018,false
+watches,6.67,international expedited,1,false,30.03.2018,true
+watches,6.67,international,0,true,31.03.2018,true
+watches,6.67,domestic expedited,0,false,30.09.2018,true
+watches,6.67,domestic,2,false,01.10.2018,false
+electronics,6.67,international expedited,0,true,15.12.2017,true
+electronics,6.67,international,1,false,16.12.2017,false
+electronics,6.67,domestic expedited,2,true,15.01.2018,false
+electronics,6.67,domestic,2,true,16.01.2018,true
+electronics,6.67,international expedited,0,true,30.03.2018,false
+electronics,6.67,international,2,false,31.03.2018,false
+electronics,6.67,domestic expedited,2,false,30.09.2018,false
+electronics,6.67,domestic,0,true,01.10.2018,true
+book,10,domestic,0,true,15.12.2017,true
+book,10,domestic expedited,1,false,16.12.2017,false
+book,10,international,2,true,15.01.2018,false
+book,10,international expedited,0,false,16.01.2018,true
+book,10,domestic,1,true,30.03.2018,true
+book,10,domestic expedited,0,true,31.03.2018,false
+book,10,international,1,false,30.09.2018,true
+book,10,international expedited,2,true,01.10.2018,false
+music,10,domestic expedited,2,false,15.12.2017,true
+music,10,domestic,0,true,16.12.2017,false
+music,10,international expedited,1,false,15.01.2018,true
+music,10,international,0,true,16.01.2018,false
+music,10,domestic expedited,2,false,30.03.2018,false
+music,10,domestic,2,false,31.03.2018,true
+music,10,international expedited,0,true,30.09.2018,false
+music,10,international,1,false,01.10.2018,true
+video,10,international,1,true,15.12.2017,false
+video,10,international expedited,2,false,16.12.2017,true
+video,10,domestic,0,true,15.01.2018,false
+video,10,domestic expedited,1,true,16.01.2018,true
+video,10,international,0,true,30.03.2018,true
+video,10,international expedited,1,true,31.03.2018,true
+video,10,domestic,2,false,30.09.2018,true
+video,10,domestic expedited,0,false,01.10.2018,true
+jewelry,10,international expedited,1,true,15.12.2017,true
+jewelry,10,international,2,false,16.12.2017,false
+jewelry,10,domestic expedited,0,false,15.01.2018,false
+jewelry,10,domestic,2,false,16.01.2018,false
+jewelry,10,international expedited,2,true,30.03.2018,true
+jewelry,10,international,0,false,31.03.2018,false
+jewelry,10,domestic expedited,2,true,30.09.2018,true
+jewelry,10,domestic,1,true,01.10.2018,false
+clothing,10,domestic,1,true,15.12.2017,true
+clothing,10,domestic expedited,0,false,16.12.2017,false
+clothing,10,international,2,true,15.01.2018,false
+clothing,10,international expedited,2,false,16.01.2018,true
+clothing,10,international,0,false,30.03.2018,false
+clothing,10,domestic expedited,2,true,31.03.2018,true
+clothing,10,international expedited,1,false,30.09.2018,false
+clothing,10,international,2,true,01.10.2018,true
+furniture,10,domestic,1,true,15.12.2017,true
+furniture,10,domestic expedited,0,false,16.12.2017,false
+furniture,10,international,2,false,15.01.2018,false
+furniture,10,international expedited,2,true,16.01.2018,true
+furniture,10,international,1,false,30.03.2018,true
+furniture,10,domestic expedited,2,true,31.03.2018,false
+furniture,10,international,0,true,30.09.2018,true
+furniture,10,domestic,1,false,01.10.2018,false
+watches,10,domestic,1,true,15.12.2017,true
+watches,10,domestic expedited,0,false,16.12.2017,false
+watches,10,international,2,false,15.01.2018,false
+watches,10,international expedited,0,true,16.01.2018,true
+watches,10,international,1,true,30.03.2018,false
+watches,10,domestic expedited,1,false,31.03.2018,true
+watches,10,international,1,true,30.09.2018,false
+watches,10,international expedited,2,true,01.10.2018,true
+electronics,10,domestic,1,true,15.12.2017,true
+electronics,10,domestic expedited,0,false,16.12.2017,false
+electronics,10,international,2,true,15.01.2018,false
+electronics,10,international expedited,2,true,16.01.2018,false
+electronics,10,domestic expedited,0,false,30.03.2018,true
+electronics,10,international,2,false,31.03.2018,false
+electronics,10,international,2,false,30.09.2018,true
+electronics,10,domestic expedited,0,false,01.10.2018,false
+book,10.01,domestic,1,true,15.12.2017,true
+book,10.01,domestic expedited,0,false,16.12.2017,false
+book,10.01,international,2,true,15.01.2018,false
+book,10.01,international expedited,1,false,16.01.2018,true
+book,10.01,domestic,0,true,30.03.2018,true
+book,10.01,domestic expedited,1,true,31.03.2018,false
+book,10.01,international,0,false,30.09.2018,true
+book,10.01,international expedited,2,true,01.10.2018,false
+music,10.01,domestic expedited,2,false,15.12.2017,true
+music,10.01,domestic,1,true,16.12.2017,false
+music,10.01,international expedited,0,false,15.01.2018,true
+music,10.01,international,1,true,16.01.2018,false
+music,10.01,domestic expedited,2,false,30.03.2018,false
+music,10.01,domestic,2,false,31.03.2018,true
+music,10.01,international expedited,1,true,30.09.2018,false
+music,10.01,international,0,false,01.10.2018,true
+video,10.01,international,0,true,15.12.2017,false
+video,10.01,international expedited,2,false,16.12.2017,true
+video,10.01,domestic,1,false,15.01.2018,true
+video,10.01,domestic expedited,0,false,16.01.2018,true
+video,10.01,international,1,true,30.03.2018,false
+video,10.01,international expedited,0,false,31.03.2018,false
+video,10.01,domestic,2,false,30.09.2018,true
+video,10.01,domestic expedited,1,false,01.10.2018,false
+jewelry,10.01,international expedited,2,true,15.12.2017,true
+jewelry,10.01,international,0,false,16.12.2017,false
+jewelry,10.01,domestic expedited,1,false,15.01.2018,true
+jewelry,10.01,domestic,2,false,16.01.2018,true
+jewelry,10.01,international expedited,1,false,30.03.2018,false
+jewelry,10.01,international,2,true,31.03.2018,true
+jewelry,10.01,domestic expedited,1,false,30.09.2018,false
+jewelry,10.01,domestic,1,false,01.10.2018,false
+clothing,10.01,domestic,0,true,15.12.2017,true
+clothing,10.01,domestic expedited,1,false,16.12.2017,false
+clothing,10.01,international,2,true,15.01.2018,false
+clothing,10.01,international expedited,0,true,16.01.2018,true
+clothing,10.01,international,2,true,30.03.2018,false
+clothing,10.01,international expedited,0,false,31.03.2018,false
+clothing,10.01,domestic,0,true,30.09.2018,false
+clothing,10.01,domestic,1,false,01.10.2018,true
+furniture,10.01,domestic,0,true,15.12.2017,true
+furniture,10.01,domestic expedited,1,false,16.12.2017,false
+furniture,10.01,international,2,false,15.01.2018,true
+furniture,10.01,international expedited,1,false,16.01.2018,true
+furniture,10.01,domestic,0,true,30.03.2018,true
+furniture,10.01,domestic,0,true,31.03.2018,true
+furniture,10.01,international expedited,0,true,30.09.2018,false
+furniture,10.01,domestic,1,false,01.10.2018,false
+watches,10.01,domestic,0,true,15.12.2017,true
+watches,10.01,domestic expedited,1,false,16.12.2017,false
+watches,10.01,international,2,false,15.01.2018,false
+watches,10.01,international expedited,0,false,16.01.2018,false
+watches,10.01,international,1,true,30.03.2018,true
+watches,10.01,international expedited,0,false,31.03.2018,true
+watches,10.01,international expedited,0,true,30.09.2018,false
+watches,10.01,domestic,1,false,01.10.2018,true
+electronics,10.01,domestic,0,true,15.12.2017,true
+electronics,10.01,domestic expedited,1,false,16.12.2017,false
+electronics,10.01,international,2,true,15.01.2018,false
+electronics,10.01,international expedited,0,false,16.01.2018,false
+electronics,10.01,domestic,1,false,30.03.2018,true
+electronics,10.01,domestic,0,true,31.03.2018,false
+electronics,10.01,international,1,true,30.09.2018,false
+electronics,10.01,domestic,0,true,01.10.2018,false
+book,12.5,domestic,0,true,15.12.2017,true
+book,12.5,domestic expedited,1,false,16.12.2017,false
+book,12.5,international,2,true,15.01.2018,false
+book,12.5,international expedited,0,false,16.01.2018,true
+book,12.5,domestic,1,true,30.03.2018,true
+book,12.5,domestic expedited,2,true,31.03.2018,true
+book,12.5,international,0,false,30.09.2018,false
+book,12.5,international expedited,1,true,01.10.2018,false
+music,12.5,domestic expedited,2,false,15.12.2017,false
+music,12.5,domestic,0,true,16.12.2017,true
+music,12.5,international expedited,1,false,15.01.2018,true
+music,12.5,international,1,true,16.01.2018,false
+music,12.5,domestic expedited,0,false,30.03.2018,false
+music,12.5,domestic,2,false,31.03.2018,false
+music,12.5,international expedited,2,true,30.09.2018,true
+music,12.5,international,0,false,01.10.2018,true
+video,12.5,international,1,true,15.12.2017,true
+video,12.5,international expedited,2,false,16.12.2017,false
+video,12.5,domestic,0,true,15.01.2018,false
+video,12.5,domestic expedited,2,false,16.01.2018,false
+video,12.5,international,2,false,30.03.2018,false
+video,12.5,international expedited,1,true,31.03.2018,true
+video,12.5,domestic,1,false,30.09.2018,true
+video,12.5,domestic expedited,2,true,01.10.2018,true
+jewelry,12.5,international expedited,0,true,15.12.2017,true
+jewelry,12.5,international,1,false,16.12.2017,false
+jewelry,12.5,domestic expedited,2,true,15.01.2018,true
+jewelry,12.5,domestic,0,true,16.01.2018,false
+jewelry,12.5,international expedited,1,true,30.03.2018,true
+jewelry,12.5,international,0,false,31.03.2018,false
+jewelry,12.5,domestic expedited,0,false,30.09.2018,false
+jewelry,12.5,domestic,1,true,01.10.2018,true
+clothing,12.5,domestic,0,true,15.12.2017,true
+clothing,12.5,domestic expedited,1,false,16.12.2017,false
+clothing,12.5,international,2,true,15.01.2018,false
+clothing,12.5,international expedited,0,false,16.01.2018,false
+clothing,12.5,international expedited,1,true,30.03.2018,true
+clothing,12.5,international,1,true,31.03.2018,false
+clothing,12.5,domestic expedited,0,true,30.09.2018,true
+clothing,12.5,domestic,1,true,01.10.2018,false
+furniture,12.5,domestic,0,true,15.12.2017,true
+furniture,12.5,domestic expedited,1,false,16.12.2017,false
+furniture,12.5,international,2,false,15.01.2018,false
+furniture,12.5,international expedited,0,true,16.01.2018,false
+furniture,12.5,domestic,0,true,30.03.2018,true
+furniture,12.5,international expedited,2,false,31.03.2018,true
+furniture,12.5,domestic expedited,0,true,30.09.2018,true
+furniture,12.5,international expedited,0,false,01.10.2018,false
+watches,12.5,domestic,0,true,15.12.2017,true
+watches,12.5,domestic expedited,1,false,16.12.2017,false
+watches,12.5,international,2,false,15.01.2018,false
+watches,12.5,international expedited,0,true,16.01.2018,true
+watches,12.5,international,2,false,30.03.2018,false
+watches,12.5,international expedited,0,true,31.03.2018,true
+watches,12.5,international expedited,1,false,30.09.2018,false
+watches,12.5,international expedited,1,false,01.10.2018,false
+electronics,12.5,domestic,0,true,15.12.2017,true
+electronics,12.5,domestic expedited,1,false,16.12.2017,false
+electronics,12.5,international,2,false,15.01.2018,true
+electronics,12.5,international expedited,1,true,16.01.2018,false
+electronics,12.5,domestic expedited,1,false,30.03.2018,false
+electronics,12.5,international expedited,1,false,31.03.2018,true
+electronics,12.5,domestic,0,false,30.09.2018,true
+electronics,12.5,international expedited,0,true,01.10.2018,true
+book,12.51,domestic,0,true,15.12.2017,true
+book,12.51,domestic expedited,1,false,16.12.2017,false
+book,12.51,international,2,true,15.01.2018,false
+book,12.51,international expedited,0,false,16.01.2018,true
+book,12.51,domestic,1,true,30.03.2018,true
+book,12.51,domestic expedited,0,true,31.03.2018,false
+book,12.51,international,1,false,30.09.2018,true
+book,12.51,international expedited,2,true,01.10.2018,false
+music,12.51,domestic expedited,2,false,15.12.2017,true
+music,12.51,domestic,0,true,16.12.2017,false
+music,12.51,international expedited,1,false,15.01.2018,true
+music,12.51,international,0,true,16.01.2018,false
+music,12.51,domestic expedited,2,false,30.03.2018,false
+music,12.51,domestic,2,false,31.03.2018,true
+music,12.51,international expedited,0,true,30.09.2018,false
+music,12.51,international,1,false,01.10.2018,true
+video,12.51,international,1,true,15.12.2017,false
+video,12.51,international expedited,2,false,16.12.2017,true
+video,12.51,domestic,0,true,15.01.2018,false
+video,12.51,domestic expedited,1,false,16.01.2018,true
+video,12.51,international,0,true,30.03.2018,true
+video,12.51,international expedited,1,true,31.03.2018,true
+video,12.51,domestic,2,true,30.09.2018,false
+video,12.51,domestic expedited,0,true,01.10.2018,true
+jewelry,12.51,international expedited,1,true,15.12.2017,true
+jewelry,12.51,international,2,false,16.12.2017,false
+jewelry,12.51,domestic expedited,0,true,15.01.2018,false
+jewelry,12.51,domestic,2,true,16.01.2018,true
+jewelry,12.51,international expedited,1,true,30.03.2018,true
+jewelry,12.51,international,2,true,31.03.2018,false
+jewelry,12.51,domestic expedited,1,false,30.09.2018,false
+jewelry,12.51,domestic,1,true,01.10.2018,false
+clothing,12.51,domestic,1,true,15.12.2017,true
+clothing,12.51,domestic expedited,0,false,16.12.2017,false
+clothing,12.51,international,2,true,15.01.2018,true
+clothing,12.51,international expedited,0,false,16.01.2018,false
+clothing,12.51,domestic expedited,2,true,30.03.2018,false
+clothing,12.51,domestic expedited,2,true,31.03.2018,false
+clothing,12.51,domestic expedited,1,true,30.09.2018,true
+clothing,12.51,international expedited,2,false,01.10.2018,true
+furniture,12.51,domestic,1,true,15.12.2017,true
+furniture,12.51,domestic expedited,0,false,16.12.2017,false
+furniture,12.51,international,2,true,15.01.2018,true
+furniture,12.51,international expedited,1,false,16.01.2018,false
+furniture,12.51,domestic expedited,1,false,30.03.2018,false
+furniture,12.51,domestic expedited,2,true,31.03.2018,true
+furniture,12.51,domestic,0,true,30.09.2018,false
+furniture,12.51,domestic,0,true,01.10.2018,false
+watches,12.51,domestic,1,true,15.12.2017,true
+watches,12.51,domestic expedited,0,false,16.12.2017,false
+watches,12.51,international,2,false,15.01.2018,false
+watches,12.51,international expedited,0,false,16.01.2018,true
+watches,12.51,international,1,true,30.03.2018,true
+watches,12.51,international expedited,2,true,31.03.2018,false
+watches,12.51,domestic,2,true,30.09.2018,true
+watches,12.51,international expedited,1,false,01.10.2018,false
+electronics,12.51,domestic,1,true,15.12.2017,true
+electronics,12.51,domestic expedited,0,false,16.12.2017,false
+electronics,12.51,international,2,true,15.01.2018,true
+electronics,12.51,international expedited,2,false,16.01.2018,true
+electronics,12.51,international expedited,1,true,30.03.2018,false
+electronics,12.51,international expedited,2,false,31.03.2018,false
+electronics,12.51,international expedited,2,true,30.09.2018,false
+electronics,12.51,domestic,1,true,01.10.2018,true
+book,13.33,domestic,1,true,15.12.2017,true
+book,13.33,domestic expedited,0,false,16.12.2017,false
+book,13.33,international,2,true,15.01.2018,false
+book,13.33,international expedited,1,false,16.01.2018,true
+book,13.33,domestic,0,true,30.03.2018,true
+book,13.33,domestic expedited,1,true,31.03.2018,false
+book,13.33,international,0,false,30.09.2018,true
+book,13.33,international expedited,2,true,01.10.2018,false
+music,13.33,domestic expedited,2,false,15.12.2017,true
+music,13.33,domestic,1,true,16.12.2017,false
+music,13.33,international expedited,0,false,15.01.2018,true
+music,13.33,international,1,true,16.01.2018,false
+music,13.33,domestic expedited,2,false,30.03.2018,false
+music,13.33,domestic,2,false,31.03.2018,true
+music,13.33,international expedited,1,true,30.09.2018,false
+music,13.33,international,0,false,01.10.2018,true
+video,13.33,international,0,true,15.12.2017,false
+video,13.33,international expedited,2,false,16.12.2017,true
+video,13.33,domestic,1,true,15.01.2018,false
+video,13.33,domestic expedited,0,true,16.01.2018,true
+video,13.33,international,1,true,30.03.2018,false
+video,13.33,international expedited,0,true,31.03.2018,false
+video,13.33,domestic,2,true,30.09.2018,false
+video,13.33,domestic expedited,1,false,01.10.2018,false
+jewelry,13.33,international expedited,2,true,15.12.2017,true
+jewelry,13.33,international,0,false,16.12.2017,false
+jewelry,13.33,domestic expedited,1,false,15.01.2018,true
+jewelry,13.33,domestic,2,true,16.01.2018,false
+jewelry,13.33,international expedited,0,true,30.03.2018,true
+jewelry,13.33,international,2,false,31.03.2018,true
+jewelry,13.33,domestic expedited,0,false,30.09.2018,false
+jewelry,13.33,domestic,0,true,01.10.2018,true
+clothing,13.33,domestic,0,true,15.12.2017,true
+clothing,13.33,domestic expedited,1,false,16.12.2017,false
+clothing,13.33,international,2,true,15.01.2018,false
+clothing,13.33,international expedited,1,true,16.01.2018,true
+clothing,13.33,domestic,0,true,30.03.2018,true
+clothing,13.33,international,1,false,31.03.2018,true
+clothing,13.33,international expedited,0,true,30.09.2018,false
+clothing,13.33,international expedited,1,true,01.10.2018,true
+furniture,13.33,domestic,0,true,15.12.2017,true
+furniture,13.33,domestic expedited,1,false,16.12.2017,false
+furniture,13.33,international,2,true,15.01.2018,true
+furniture,13.33,international expedited,0,true,16.01.2018,true
+furniture,13.33,domestic expedited,1,false,30.03.2018,true
+furniture,13.33,international,0,false,31.03.2018,true
+furniture,13.33,international,2,true,30.09.2018,true
+furniture,13.33,domestic expedited,0,false,01.10.2018,false
+watches,13.33,domestic,0,true,15.12.2017,true
+watches,13.33,domestic expedited,1,false,16.12.2017,false
+watches,13.33,international,2,true,15.01.2018,false
+watches,13.33,international expedited,0,false,16.01.2018,false
+watches,13.33,domestic expedited,0,false,30.03.2018,true
+watches,13.33,international,2,true,31.03.2018,true
+watches,13.33,international expedited,1,true,30.09.2018,false
+watches,13.33,international expedited,2,true,01.10.2018,true
+electronics,13.33,domestic,0,true,15.12.2017,true
+electronics,13.33,domestic expedited,1,false,16.12.2017,false
+electronics,13.33,international,2,true,15.01.2018,true
+electronics,13.33,international expedited,1,false,16.01.2018,true
+electronics,13.33,domestic expedited,2,true,30.03.2018,false
+electronics,13.33,international expedited,0,true,31.03.2018,false
+electronics,13.33,international,0,true,30.09.2018,false
+electronics,13.33,international,0,false,01.10.2018,true
+book,13.34,domestic,0,true,15.12.2017,true
+book,13.34,domestic expedited,1,false,16.12.2017,false
+book,13.34,international,2,true,15.01.2018,false
+book,13.34,international expedited,0,false,16.01.2018,true
+book,13.34,domestic,1,true,30.03.2018,true
+book,13.34,domestic expedited,2,true,31.03.2018,true
+book,13.34,international,0,false,30.09.2018,false
+book,13.34,international expedited,1,true,01.10.2018,false
+music,13.34,domestic expedited,2,false,15.12.2017,false
+music,13.34,domestic,0,true,16.12.2017,true
+music,13.34,international expedited,1,false,15.01.2018,true
+music,13.34,international,1,true,16.01.2018,false
+music,13.34,domestic expedited,0,false,30.03.2018,false
+music,13.34,domestic,2,false,31.03.2018,false
+music,13.34,international expedited,2,true,30.09.2018,true
+music,13.34,international,0,false,01.10.2018,true
+video,13.34,international,1,true,15.12.2017,true
+video,13.34,international expedited,2,false,16.12.2017,false
+video,13.34,domestic,0,true,15.01.2018,false
+video,13.34,domestic expedited,2,true,16.01.2018,true
+video,13.34,international,2,false,30.03.2018,true
+video,13.34,international expedited,1,true,31.03.2018,false
+video,13.34,domestic,1,true,30.09.2018,false
+video,13.34,domestic expedited,2,true,01.10.2018,false
+jewelry,13.34,international expedited,0,true,15.12.2017,true
+jewelry,13.34,international,1,false,16.12.2017,false
+jewelry,13.34,domestic expedited,2,false,15.01.2018,true
+jewelry,13.34,domestic,0,true,16.01.2018,false
+jewelry,13.34,international expedited,2,true,30.03.2018,false
+jewelry,13.34,international,0,false,31.03.2018,false
+jewelry,13.34,domestic expedited,0,true,30.09.2018,false
+jewelry,13.34,domestic,0,false,01.10.2018,true
+clothing,13.34,domestic,0,true,15.12.2017,true
+clothing,13.34,domestic expedited,1,false,16.12.2017,false
+clothing,13.34,international,2,true,15.01.2018,true
+clothing,13.34,international expedited,1,true,16.01.2018,true
+clothing,13.34,domestic,0,true,30.03.2018,false
+clothing,13.34,international,0,false,31.03.2018,false
+clothing,13.34,domestic,0,true,30.09.2018,false
+clothing,13.34,domestic,2,false,01.10.2018,true
+furniture,13.34,domestic,0,true,15.12.2017,true
+furniture,13.34,domestic expedited,1,false,16.12.2017,false
+furniture,13.34,international,2,true,15.01.2018,true
+furniture,13.34,international expedited,0,true,16.01.2018,true
+furniture,13.34,international expedited,0,false,30.03.2018,false
+furniture,13.34,domestic,1,false,31.03.2018,true
+furniture,13.34,domestic,1,true,30.09.2018,false
+furniture,13.34,international,2,false,01.10.2018,true
+watches,13.34,domestic,0,true,15.12.2017,true
+watches,13.34,domestic expedited,1,false,16.12.2017,false
+watches,13.34,international,2,true,15.01.2018,false
+watches,13.34,international expedited,1,false,16.01.2018,false
+watches,13.34,international expedited,0,false,30.03.2018,false
+watches,13.34,international,1,false,31.03.2018,true
+watches,13.34,domestic expedited,2,false,30.09.2018,true
+watches,13.34,domestic expedited,1,true,01.10.2018,true
+electronics,13.34,domestic,0,true,15.12.2017,true
+electronics,13.34,domestic expedited,1,false,16.12.2017,false
+electronics,13.34,international,2,false,15.01.2018,false
+electronics,13.34,international expedited,2,true,16.01.2018,false
+electronics,13.34,international expedited,2,false,30.03.2018,false
+electronics,13.34,international,0,false,31.03.2018,true
+electronics,13.34,domestic expedited,1,false,30.09.2018,false
+electronics,13.34,domestic,2,false,01.10.2018,true
+book,24.99,domestic,0,true,15.12.2017,true
+book,24.99,domestic expedited,1,false,16.12.2017,false
+book,24.99,international,2,true,15.01.2018,false
+book,24.99,international expedited,0,false,16.01.2018,true
+book,24.99,domestic,1,true,30.03.2018,true
+book,24.99,domestic expedited,0,true,31.03.2018,false
+book,24.99,international,1,false,30.09.2018,true
+book,24.99,international expedited,2,true,01.10.2018,false
+music,24.99,domestic expedited,2,false,15.12.2017,true
+music,24.99,domestic,0,true,16.12.2017,false
+music,24.99,international expedited,1,false,15.01.2018,true
+music,24.99,international,0,true,16.01.2018,false
+music,24.99,domestic expedited,2,false,30.03.2018,false
+music,24.99,domestic,2,false,31.03.2018,true
+music,24.99,international expedited,0,true,30.09.2018,false
+music,24.99,international,1,false,01.10.2018,true
+video,24.99,international,1,true,15.12.2017,false
+video,24.99,international expedited,2,false,16.12.2017,true
+video,24.99,domestic,0,false,15.01.2018,true
+video,24.99,domestic expedited,1,true,16.01.2018,true
+video,24.99,international,0,true,30.03.2018,false
+video,24.99,international expedited,1,false,31.03.2018,true
+video,24.99,domestic,2,false,30.09.2018,false
+video,24.99,domestic expedited,0,true,01.10.2018,false
+jewelry,24.99,international expedited,1,true,15.12.2017,true
+jewelry,24.99,international,2,false,16.12.2017,false
+jewelry,24.99,domestic expedited,0,false,15.01.2018,true
+jewelry,24.99,domestic,2,true,16.01.2018,false
+jewelry,24.99,international expedited,0,false,30.03.2018,true
+jewelry,24.99,international,0,false,31.03.2018,true
+jewelry,24.99,domestic expedited,0,false,30.09.2018,true
+jewelry,24.99,domestic,0,false,01.10.2018,false
+clothing,24.99,domestic,1,true,15.12.2017,true
+clothing,24.99,domestic expedited,0,false,16.12.2017,false
+clothing,24.99,international,2,true,15.01.2018,false
+clothing,24.99,international expedited,1,true,16.01.2018,true
+clothing,24.99,domestic expedited,1,false,30.03.2018,false
+clothing,24.99,domestic expedited,2,false,31.03.2018,false
+clothing,24.99,domestic expedited,2,true,30.09.2018,false
+clothing,24.99,international,1,false,01.10.2018,true
+furniture,24.99,domestic,1,true,15.12.2017,true
+furniture,24.99,domestic expedited,0,false,16.12.2017,false
+furniture,24.99,international,2,true,15.01.2018,true
+furniture,24.99,international expedited,2,false,16.01.2018,true
+furniture,24.99,domestic expedited,2,true,30.03.2018,true
+furniture,24.99,international expedited,2,true,31.03.2018,true
+furniture,24.99,domestic,0,true,30.09.2018,false
+furniture,24.99,domestic,1,true,01.10.2018,false
+watches,24.99,domestic,1,true,15.12.2017,true
+watches,24.99,domestic expedited,0,false,16.12.2017,false
+watches,24.99,international,2,true,15.01.2018,false
+watches,24.99,international expedited,1,true,16.01.2018,false
+watches,24.99,domestic,2,true,30.03.2018,false
+watches,24.99,international expedited,2,false,31.03.2018,false
+watches,24.99,domestic expedited,1,false,30.09.2018,true
+watches,24.99,domestic expedited,2,false,01.10.2018,true
+electronics,24.99,domestic,1,true,15.12.2017,true
+electronics,24.99,domestic expedited,0,false,16.12.2017,false
+electronics,24.99,international,2,false,15.01.2018,false
+electronics,24.99,international expedited,1,true,16.01.2018,false
+electronics,24.99,international,1,true,30.03.2018,false
+electronics,24.99,domestic,1,false,31.03.2018,false
+electronics,24.99,domestic expedited,0,false,30.09.2018,true
+electronics,24.99,domestic expedited,0,true,01.10.2018,true
+book,25,domestic,1,true,15.12.2017,true
+book,25,domestic expedited,0,false,16.12.2017,false
+book,25,international,2,true,15.01.2018,false
+book,25,international expedited,1,false,16.01.2018,true
+book,25,domestic,0,true,30.03.2018,true
+book,25,domestic expedited,1,true,31.03.2018,false
+book,25,international,0,false,30.09.2018,true
+book,25,international expedited,2,true,01.10.2018,false
+music,25,domestic expedited,2,false,15.12.2017,true
+music,25,domestic,1,true,16.12.2017,false
+music,25,international expedited,0,false,15.01.2018,true
+music,25,international,1,true,16.01.2018,false
+music,25,domestic expedited,2,false,30.03.2018,false
+music,25,domestic,2,false,31.03.2018,true
+music,25,international expedited,1,true,30.09.2018,false
+music,25,international,0,false,01.10.2018,true
+video,25,international,0,true,15.12.2017,false
+video,25,international expedited,2,false,16.12.2017,true
+video,25,domestic,1,false,15.01.2018,true
+video,25,domestic expedited,0,true,16.01.2018,false
+video,25,international,1,true,30.03.2018,true
+video,25,international expedited,0,false,31.03.2018,false
+video,25,domestic,2,false,30.09.2018,true
+video,25,domestic expedited,1,false,01.10.2018,true
+jewelry,25,international expedited,2,true,15.12.2017,true
+jewelry,25,international,0,false,16.12.2017,false
+jewelry,25,domestic expedited,1,true,15.01.2018,true
+jewelry,25,domestic,2,true,16.01.2018,true
+jewelry,25,international expedited,1,false,30.03.2018,false
+jewelry,25,international,0,true,31.03.2018,true
+jewelry,25,domestic expedited,1,false,30.09.2018,true
+jewelry,25,domestic,1,false,01.10.2018,false
+clothing,25,domestic,0,true,15.12.2017,true
+clothing,25,domestic expedited,1,false,16.12.2017,false
+clothing,25,international,2,true,15.01.2018,false
+clothing,25,international expedited,0,false,16.01.2018,false
+clothing,25,international,2,false,30.03.2018,false
+clothing,25,international expedited,2,false,31.03.2018,false
+clothing,25,international,0,true,30.09.2018,false
+clothing,25,domestic expedited,2,true,01.10.2018,true
+furniture,25,domestic,0,true,15.12.2017,true
+furniture,25,domestic expedited,1,false,16.12.2017,false
+furniture,25,international,2,true,15.01.2018,true
+furniture,25,international expedited,1,true,16.01.2018,true
+furniture,25,international,2,true,30.03.2018,false
+furniture,25,international,2,true,31.03.2018,false
+furniture,25,international,1,true,30.09.2018,true
+furniture,25,domestic expedited,0,true,01.10.2018,false
+watches,25,domestic,0,true,15.12.2017,true
+watches,25,domestic expedited,1,false,16.12.2017,false
+watches,25,international,2,false,15.01.2018,false
+watches,25,international expedited,1,true,16.01.2018,true
+watches,25,domestic expedited,0,true,30.03.2018,true
+watches,25,domestic,2,false,31.03.2018,false
+watches,25,international expedited,2,true,30.09.2018,true
+watches,25,international expedited,0,true,01.10.2018,false
+electronics,25,domestic,0,true,15.12.2017,true
+electronics,25,domestic expedited,1,false,16.12.2017,false
+electronics,25,international,2,true,15.01.2018,false
+electronics,25,international expedited,2,false,16.01.2018,true
+electronics,25,international,0,false,30.03.2018,true
+electronics,25,international expedited,0,true,31.03.2018,true
+electronics,25,domestic expedited,1,false,30.09.2018,false
+electronics,25,domestic,1,true,01.10.2018,false
+book,48.99,domestic,0,true,15.12.2017,true
+book,48.99,domestic expedited,1,false,16.12.2017,false
+book,48.99,international,2,true,15.01.2018,false
+book,48.99,international expedited,0,false,16.01.2018,true
+book,48.99,domestic,1,true,30.03.2018,true
+book,48.99,domestic expedited,2,true,31.03.2018,true
+book,48.99,international,0,false,30.09.2018,false
+book,48.99,international expedited,1,true,01.10.2018,false
+music,48.99,domestic expedited,2,false,15.12.2017,false
+music,48.99,domestic,0,true,16.12.2017,true
+music,48.99,international expedited,1,false,15.01.2018,true
+music,48.99,international,1,true,16.01.2018,false
+music,48.99,domestic expedited,0,false,30.03.2018,false
+music,48.99,domestic,2,false,31.03.2018,false
+music,48.99,international expedited,2,true,30.09.2018,true
+music,48.99,international,0,false,01.10.2018,true
+video,48.99,international,1,true,15.12.2017,true
+video,48.99,international expedited,2,false,16.12.2017,false
+video,48.99,domestic,0,true,15.01.2018,false
+video,48.99,domestic expedited,2,true,16.01.2018,true
+video,48.99,international,2,false,30.03.2018,false
+video,48.99,international expedited,1,true,31.03.2018,true
+video,48.99,domestic,1,false,30.09.2018,false
+video,48.99,domestic expedited,2,false,01.10.2018,true
+jewelry,48.99,international expedited,0,true,15.12.2017,true
+jewelry,48.99,international,1,false,16.12.2017,false
+jewelry,48.99,domestic expedited,2,true,15.01.2018,false
+jewelry,48.99,domestic,2,false,16.01.2018,true
+jewelry,48.99,international expedited,2,true,30.03.2018,true
+jewelry,48.99,international,0,false,31.03.2018,false
+jewelry,48.99,domestic expedited,2,false,30.09.2018,false
+jewelry,48.99,domestic,0,false,01.10.2018,false
+clothing,48.99,domestic,0,true,15.12.2017,true
+clothing,48.99,domestic expedited,1,false,16.12.2017,false
+clothing,48.99,international,2,false,15.01.2018,false
+clothing,48.99,international expedited,2,false,16.01.2018,false
+clothing,48.99,domestic expedited,2,true,30.03.2018,false
+clothing,48.99,domestic expedited,0,false,31.03.2018,true
+clothing,48.99,international expedited,2,true,30.09.2018,true
+clothing,48.99,domestic,0,false,01.10.2018,true
+furniture,48.99,domestic,0,true,15.12.2017,true
+furniture,48.99,domestic expedited,1,false,16.12.2017,false
+furniture,48.99,international,2,true,15.01.2018,true
+furniture,48.99,international expedited,1,true,16.01.2018,false
+furniture,48.99,international expedited,1,true,30.03.2018,false
+furniture,48.99,domestic,2,false,31.03.2018,true
+furniture,48.99,domestic,1,false,30.09.2018,true
+furniture,48.99,domestic expedited,0,false,01.10.2018,true
+watches,48.99,domestic,0,true,15.12.2017,true
+watches,48.99,domestic expedited,1,false,16.12.2017,false
+watches,48.99,international,2,false,15.01.2018,true
+watches,48.99,international expedited,0,true,16.01.2018,true
+watches,48.99,international,0,true,30.03.2018,true
+watches,48.99,domestic,2,false,31.03.2018,true
+watches,48.99,domestic expedited,0,false,30.09.2018,true
+watches,48.99,domestic expedited,0,true,01.10.2018,false
+electronics,48.99,domestic,0,true,15.12.2017,true
+electronics,48.99,domestic expedited,1,false,16.12.2017,false
+electronics,48.99,international,2,false,15.01.2018,false
+electronics,48.99,international expedited,0,true,16.01.2018,false
+electronics,48.99,domestic,1,true,30.03.2018,true
+electronics,48.99,domestic expedited,1,false,31.03.2018,true
+electronics,48.99,international,1,false,30.09.2018,true
+electronics,48.99,international,2,false,01.10.2018,true
+book,49,domestic,0,true,15.12.2017,true
+book,49,domestic expedited,1,false,16.12.2017,false
+book,49,international,2,true,15.01.2018,false
+book,49,international expedited,0,false,16.01.2018,true
+book,49,domestic,1,true,30.03.2018,true
+book,49,domestic expedited,0,true,31.03.2018,false
+book,49,international,1,false,30.09.2018,true
+book,49,international expedited,2,true,01.10.2018,false
+music,49,domestic expedited,2,false,15.12.2017,true
+music,49,domestic,0,true,16.12.2017,false
+music,49,international expedited,1,false,15.01.2018,true
+music,49,international,0,true,16.01.2018,false
+music,49,domestic expedited,2,false,30.03.2018,false
+music,49,domestic,2,false,31.03.2018,true
+music,49,international expedited,0,true,30.09.2018,false
+music,49,international,1,false,01.10.2018,true
+video,49,international,1,true,15.12.2017,false
+video,49,international expedited,2,false,16.12.2017,true
+video,49,domestic,0,false,15.01.2018,false
+video,49,domestic expedited,1,true,16.01.2018,false
+video,49,international,0,false,30.03.2018,false
+video,49,international expedited,1,false,31.03.2018,false
+video,49,domestic,2,false,30.09.2018,false
+video,49,domestic expedited,0,true,01.10.2018,false
+jewelry,49,international expedited,1,true,15.12.2017,true
+jewelry,49,international,2,false,16.12.2017,false
+jewelry,49,domestic expedited,0,true,15.01.2018,true
+jewelry,49,domestic,2,true,16.01.2018,true
+jewelry,49,international expedited,2,false,30.03.2018,true
+jewelry,49,international,1,false,31.03.2018,true
+jewelry,49,domestic expedited,1,false,30.09.2018,true
+jewelry,49,domestic,1,false,01.10.2018,true
+clothing,49,domestic,1,true,15.12.2017,true
+clothing,49,domestic expedited,0,false,16.12.2017,false
+clothing,49,international,2,false,15.01.2018,true
+clothing,49,international expedited,1,false,16.01.2018,true
+clothing,49,international expedited,1,true,30.03.2018,true
+clothing,49,domestic,0,false,31.03.2018,false
+clothing,49,international,1,false,30.09.2018,false
+clothing,49,domestic,0,false,01.10.2018,true
+furniture,49,domestic,1,true,15.12.2017,true
+furniture,49,domestic expedited,0,false,16.12.2017,false
+furniture,49,international,2,false,15.01.2018,true
+furniture,49,international expedited,2,true,16.01.2018,false
+furniture,49,international expedited,0,true,30.03.2018,false
+furniture,49,international expedited,1,false,31.03.2018,false
+furniture,49,domestic,1,true,30.09.2018,false
+furniture,49,domestic,1,false,01.10.2018,true
+watches,49,domestic,1,true,15.12.2017,true
+watches,49,domestic expedited,0,false,16.12.2017,false
+watches,49,international,2,true,15.01.2018,false
+watches,49,international expedited,2,true,16.01.2018,false
+watches,49,domestic,1,false,30.03.2018,true
+watches,49,domestic,0,true,31.03.2018,true
+watches,49,international expedited,1,true,30.09.2018,false
+watches,49,domestic,2,false,01.10.2018,true
+electronics,49,domestic,1,true,15.12.2017,true
+electronics,49,domestic expedited,0,false,16.12.2017,false
+electronics,49,international,2,false,15.01.2018,true
+electronics,49,international expedited,0,true,16.01.2018,false
+electronics,49,international,2,true,30.03.2018,false
+electronics,49,international,1,true,31.03.2018,false
+electronics,49,international expedited,0,false,30.09.2018,true
+electronics,49,domestic expedited,1,false,01.10.2018,true
+book,200,domestic,1,true,15.12.2017,true
+book,200,domestic expedited,0,false,16.12.2017,false
+book,200,international,2,true,15.01.2018,false
+book,200,international expedited,1,false,16.01.2018,true
+book,200,domestic,0,true,30.03.2018,true
+book,200,domestic expedited,1,true,31.03.2018,false
+book,200,international,0,false,30.09.2018,true
+book,200,international expedited,2,true,01.10.2018,false
+music,200,domestic expedited,2,false,15.12.2017,true
+music,200,domestic,1,true,16.12.2017,false
+music,200,international expedited,0,false,15.01.2018,true
+music,200,international,1,true,16.01.2018,false
+music,200,domestic expedited,2,false,30.03.2018,false
+music,200,domestic,2,false,31.03.2018,true
+music,200,international expedited,1,true,30.09.2018,false
+music,200,international,0,false,01.10.2018,true
+video,200,international,0,true,15.12.2017,false
+video,200,international expedited,2,false,16.12.2017,true
+video,200,domestic,1,true,15.01.2018,true
+video,200,domestic expedited,0,false,16.01.2018,false
+video,200,international,1,false,30.03.2018,true
+video,200,international expedited,0,true,31.03.2018,false
+video,200,domestic,2,false,30.09.2018,false
+video,200,domestic expedited,1,false,01.10.2018,true
+jewelry,200,international expedited,2,true,15.12.2017,true
+jewelry,200,international,0,false,16.12.2017,false
+jewelry,200,domestic expedited,1,true,15.01.2018,false
+jewelry,200,domestic,2,false,16.01.2018,true
+jewelry,200,international expedited,2,false,30.03.2018,false
+jewelry,200,international,2,false,31.03.2018,false
+jewelry,200,domestic expedited,1,true,30.09.2018,false
+jewelry,200,domestic,2,true,01.10.2018,true
+clothing,200,domestic,0,true,15.12.2017,true
+clothing,200,domestic expedited,1,false,16.12.2017,false
+clothing,200,international,2,false,15.01.2018,true
+clothing,200,international expedited,0,false,16.01.2018,true
+clothing,200,domestic expedited,1,true,30.03.2018,false
+clothing,200,domestic,2,false,31.03.2018,true
+clothing,200,international,2,false,30.09.2018,false
+clothing,200,international expedited,1,true,01.10.2018,true
+furniture,200,domestic,0,true,15.12.2017,true
+furniture,200,domestic expedited,1,false,16.12.2017,false
+furniture,200,international,2,true,15.01.2018,false
+furniture,200,international expedited,0,false,16.01.2018,false
+furniture,200,domestic expedited,2,true,30.03.2018,true
+furniture,200,domestic,1,true,31.03.2018,true
+furniture,200,domestic expedited,0,true,30.09.2018,false
+furniture,200,domestic expedited,0,false,01.10.2018,false
+watches,200,domestic,0,true,15.12.2017,true
+watches,200,domestic expedited,1,false,16.12.2017,false
+watches,200,international,2,false,15.01.2018,false
+watches,200,international expedited,1,true,16.01.2018,true
+watches,200,international expedited,2,true,30.03.2018,true
+watches,200,domestic,0,false,31.03.2018,false
+watches,200,international expedited,1,true,30.09.2018,true
+watches,200,domestic,1,true,01.10.2018,false
+electronics,200,domestic,0,true,15.12.2017,true
+electronics,200,domestic expedited,1,false,16.12.2017,false
+electronics,200,international,2,true,15.01.2018,false
+electronics,200,international expedited,2,false,16.01.2018,false
+electronics,200,international expedited,2,true,30.03.2018,true
+electronics,200,international expedited,1,false,31.03.2018,true
+electronics,200,international,1,true,30.09.2018,false
+electronics,200,international expedited,2,true,01.10.2018,false
+book,200.01,domestic,0,true,15.12.2017,true
+book,200.01,domestic expedited,1,false,16.12.2017,false
+book,200.01,international,2,true,15.01.2018,false
+book,200.01,international expedited,0,false,16.01.2018,true
+book,200.01,domestic,1,true,30.03.2018,true
+book,200.01,domestic expedited,2,true,31.03.2018,true
+book,200.01,international,0,false,30.09.2018,false
+book,200.01,international expedited,1,true,01.10.2018,false
+music,200.01,domestic expedited,2,false,15.12.2017,false
+music,200.01,domestic,0,true,16.12.2017,true
+music,200.01,international expedited,1,false,15.01.2018,true
+music,200.01,international,1,true,16.01.2018,false
+music,200.01,domestic expedited,0,false,30.03.2018,false
+music,200.01,domestic,2,false,31.03.2018,false
+music,200.01,international expedited,2,true,30.09.2018,true
+music,200.01,international,0,false,01.10.2018,true
+video,200.01,international,1,true,15.12.2017,true
+video,200.01,international expedited,2,false,16.12.2017,false
+video,200.01,domestic,0,true,15.01.2018,false
+video,200.01,domestic expedited,2,false,16.01.2018,false
+video,200.01,international,2,true,30.03.2018,true
+video,200.01,international expedited,1,true,31.03.2018,false
+video,200.01,domestic,1,true,30.09.2018,true
+video,200.01,domestic expedited,2,true,01.10.2018,true
+jewelry,200.01,international expedited,0,true,15.12.2017,true
+jewelry,200.01,international,1,false,16.12.2017,false
+jewelry,200.01,domestic expedited,2,true,15.01.2018,false
+jewelry,200.01,domestic,0,false,16.01.2018,false
+jewelry,200.01,international expedited,1,false,30.03.2018,false
+jewelry,200.01,international,0,true,31.03.2018,true
+jewelry,200.01,domestic expedited,0,false,30.09.2018,true
+jewelry,200.01,domestic,2,true,01.10.2018,true
+clothing,200.01,domestic,0,true,15.12.2017,true
+clothing,200.01,domestic expedited,1,false,16.12.2017,false
+clothing,200.01,international,2,false,15.01.2018,false
+clothing,200.01,international expedited,1,false,16.01.2018,true
+clothing,200.01,domestic expedited,2,true,30.03.2018,true
+clothing,200.01,international expedited,0,false,31.03.2018,false
+clothing,200.01,international,2,false,30.09.2018,false
+clothing,200.01,domestic,0,true,01.10.2018,true
+furniture,200.01,domestic,0,true,15.12.2017,true
+furniture,200.01,domestic expedited,1,false,16.12.2017,false
+furniture,200.01,international,2,false,15.01.2018,true
+furniture,200.01,international expedited,0,true,16.01.2018,true
+furniture,200.01,international expedited,2,false,30.03.2018,true
+furniture,200.01,domestic expedited,0,true,31.03.2018,false
+furniture,200.01,domestic expedited,1,false,30.09.2018,false
+furniture,200.01,domestic,2,true,01.10.2018,false
+watches,200.01,domestic,0,true,15.12.2017,true
+watches,200.01,domestic expedited,1,false,16.12.2017,false
+watches,200.01,international,2,false,15.01.2018,false
+watches,200.01,international expedited,2,true,16.01.2018,false
+watches,200.01,international expedited,1,false,30.03.2018,true
+watches,200.01,domestic expedited,1,false,31.03.2018,false
+watches,200.01,international expedited,0,true,30.09.2018,true
+watches,200.01,domestic,2,false,01.10.2018,false
+electronics,200.01,domestic,0,true,15.12.2017,true
+electronics,200.01,domestic expedited,1,false,16.12.2017,false
+electronics,200.01,international,2,true,15.01.2018,true
+electronics,200.01,international expedited,2,true,16.01.2018,false
+electronics,200.01,international,0,false,30.03.2018,false
+electronics,200.01,international,0,false,31.03.2018,false
+electronics,200.01,international,2,true,30.09.2018,true
+electronics,200.01,domestic expedited,1,true,01.10.2018,false
+book,800,domestic,0,true,15.12.2017,true
+book,800,domestic expedited,1,false,16.12.2017,false
+book,800,international,2,true,15.01.2018,false
+book,800,international expedited,0,false,16.01.2018,true
+book,800,domestic,1,true,30.03.2018,true
+book,800,domestic expedited,0,true,31.03.2018,false
+book,800,international,1,false,30.09.2018,true
+book,800,international expedited,2,true,01.10.2018,false
+music,800,domestic expedited,2,false,15.12.2017,true
+music,800,domestic,0,true,16.12.2017,false
+music,800,international expedited,1,false,15.01.2018,true
+music,800,international,0,true,16.01.2018,false
+music,800,domestic expedited,2,false,30.03.2018,false
+music,800,domestic,2,false,31.03.2018,true
+music,800,international expedited,0,true,30.09.2018,false
+music,800,international,1,false,01.10.2018,true
+video,800,international,1,true,15.12.2017,false
+video,800,international expedited,2,false,16.12.2017,true
+video,800,domestic,0,true,15.01.2018,false
+video,800,domestic expedited,1,false,16.01.2018,false
+video,800,international,0,false,30.03.2018,false
+video,800,international expedited,1,false,31.03.2018,false
+video,800,domestic,2,true,30.09.2018,true
+video,800,domestic expedited,0,true,01.10.2018,true
+jewelry,800,international expedited,1,true,15.12.2017,true
+jewelry,800,international,2,false,16.12.2017,false
+jewelry,800,domestic expedited,0,true,15.01.2018,false
+jewelry,800,domestic,2,false,16.01.2018,true
+jewelry,800,international expedited,1,false,30.03.2018,false
+jewelry,800,international,0,false,31.03.2018,false
+jewelry,800,domestic expedited,0,false,30.09.2018,false
+jewelry,800,domestic,0,false,01.10.2018,true
+clothing,800,domestic,1,true,15.12.2017,true
+clothing,800,domestic expedited,0,false,16.12.2017,false
+clothing,800,international,2,true,15.01.2018,false
+clothing,800,international expedited,1,false,16.01.2018,false
+clothing,800,international expedited,0,true,30.03.2018,true
+clothing,800,domestic,1,true,31.03.2018,false
+clothing,800,international,1,true,30.09.2018,true
+clothing,800,international expedited,0,false,01.10.2018,true
+furniture,800,domestic,1,true,15.12.2017,true
+furniture,800,domestic expedited,0,false,16.12.2017,false
+furniture,800,international,2,false,15.01.2018,true
+furniture,800,international expedited,0,true,16.01.2018,false
+furniture,800,domestic expedited,2,false,30.03.2018,false
+furniture,800,international expedited,2,false,31.03.2018,false
+furniture,800,domestic,2,true,30.09.2018,false
+furniture,800,international expedited,2,false,01.10.2018,false
+watches,800,domestic,1,true,15.12.2017,true
+watches,800,domestic expedited,0,false,16.12.2017,false
+watches,800,international,2,false,15.01.2018,true
+watches,800,international expedited,0,false,16.01.2018,false
+watches,800,international expedited,1,true,30.03.2018,true
+watches,800,domestic expedited,1,true,31.03.2018,false
+watches,800,international expedited,0,true,30.09.2018,false
+watches,800,international expedited,2,true,01.10.2018,false
+electronics,800,domestic,1,true,15.12.2017,true
+electronics,800,domestic expedited,0,false,16.12.2017,false
+electronics,800,international,2,true,15.01.2018,false
+electronics,800,international expedited,2,false,16.01.2018,true
+electronics,800,domestic,2,true,30.03.2018,false
+electronics,800,domestic,0,true,31.03.2018,true
+electronics,800,international expedited,1,true,30.09.2018,true
+electronics,800,international,0,false,01.10.2018,false
+book,800.01,domestic,1,true,15.12.2017,true
+book,800.01,domestic expedited,0,false,16.12.2017,false
+book,800.01,international,2,true,15.01.2018,false
+book,800.01,international expedited,1,false,16.01.2018,true
+book,800.01,domestic,0,true,30.03.2018,true
+book,800.01,domestic expedited,1,true,31.03.2018,false
+book,800.01,international,0,false,30.09.2018,true
+book,800.01,international expedited,2,true,01.10.2018,false
+music,800.01,domestic expedited,2,false,15.12.2017,true
+music,800.01,domestic,1,true,16.12.2017,false
+music,800.01,international expedited,0,false,15.01.2018,true
+music,800.01,international,1,true,16.01.2018,false
+music,800.01,domestic expedited,2,false,30.03.2018,false
+music,800.01,domestic,2,false,31.03.2018,true
+music,800.01,international expedited,1,true,30.09.2018,false
+music,800.01,international,0,false,01.10.2018,true
+video,800.01,international,0,true,15.12.2017,false
+video,800.01,international expedited,2,false,16.12.2017,true
+video,800.01,domestic,1,true,15.01.2018,true
+video,800.01,domestic expedited,0,false,16.01.2018,false
+video,800.01,international,1,true,30.03.2018,true
+video,800.01,international expedited,0,true,31.03.2018,true
+video,800.01,domestic,2,true,30.09.2018,false
+video,800.01,domestic expedited,1,true,01.10.2018,true
+jewelry,800.01,international expedited,2,true,15.12.2017,true
+jewelry,800.01,international,0,false,16.12.2017,false
+jewelry,800.01,domestic expedited,1,false,15.01.2018,false
+jewelry,800.01,domestic,2,true,16.01.2018,false
+jewelry,800.01,international expedited,1,false,30.03.2018,true
+jewelry,800.01,international,1,true,31.03.2018,false
+jewelry,800.01,domestic expedited,1,false,30.09.2018,false
+jewelry,800.01,domestic,2,true,01.10.2018,true
+clothing,800.01,domestic,0,true,15.12.2017,true
+clothing,800.01,domestic expedited,1,false,16.12.2017,false
+clothing,800.01,international,2,true,15.01.2018,false
+clothing,800.01,international expedited,0,false,16.01.2018,false
+clothing,800.01,domestic expedited,2,true,30.03.2018,false
+clothing,800.01,domestic,0,false,31.03.2018,false
+clothing,800.01,international expedited,0,false,30.09.2018,false
+clothing,800.01,domestic,1,true,01.10.2018,false
+furniture,800.01,domestic,0,true,15.12.2017,true
+furniture,800.01,domestic expedited,1,false,16.12.2017,false
+furniture,800.01,international,2,true,15.01.2018,false
+furniture,800.01,international expedited,0,false,16.01.2018,true
+furniture,800.01,international,1,false,30.03.2018,false
+furniture,800.01,domestic expedited,1,true,31.03.2018,true
+furniture,800.01,international expedited,0,true,30.09.2018,true
+furniture,800.01,domestic expedited,0,false,01.10.2018,true
+watches,800.01,domestic,0,true,15.12.2017,true
+watches,800.01,domestic expedited,1,false,16.12.2017,false
+watches,800.01,international,2,false,15.01.2018,true
+watches,800.01,international expedited,2,false,16.01.2018,true
+watches,800.01,domestic expedited,1,true,30.03.2018,false
+watches,800.01,domestic,2,true,31.03.2018,true
+watches,800.01,domestic,0,true,30.09.2018,true
+watches,800.01,domestic expedited,1,true,01.10.2018,true
+electronics,800.01,domestic,0,true,15.12.2017,true
+electronics,800.01,domestic expedited,1,false,16.12.2017,false
+electronics,800.01,international,2,true,15.01.2018,false
+electronics,800.01,international expedited,0,true,16.01.2018,false
+electronics,800.01,international,0,false,30.03.2018,false
+electronics,800.01,international,1,true,31.03.2018,false
+electronics,800.01,international,1,false,30.09.2018,true
+electronics,800.01,international expedited,1,false,01.10.2018,true

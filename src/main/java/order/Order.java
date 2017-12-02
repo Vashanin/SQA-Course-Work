@@ -31,7 +31,7 @@ public class Order {
 	}
 
 	public Order(LinkedList<OrderItem> orderItems,
-			ShipmentType shipmentType, Date date){
+                 ShipmentType shipmentType, Date date){
 		this.orderItems = new LinkedList<>(orderItems);
 		this.shipmentType = shipmentType;
 		this.date = date;

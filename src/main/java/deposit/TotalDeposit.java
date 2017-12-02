@@ -1,12 +1,12 @@
 package deposit;
 
-import java.util.Calendar;
-import java.util.Date;
-
 import order.Order;
 import order.OrderItem;
 import order.ProductType;
 import order.ShipmentType;
+
+import java.util.Calendar;
+import java.util.Date;
 
 /**
  * Class for calculating total amount deposited
