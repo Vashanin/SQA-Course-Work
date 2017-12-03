@@ -41,7 +41,6 @@ public class TotalDeposit {
 	
 	//limits for free shipping
 	private final double FREE_SHIPPING_BOOK_LIMIT = 25.0;
-	private final double FREE_SHIPPING_ELECTRONICS_LIMIT = 49.0;
 	private final double FREE_SHIPPING_LIMIT = 49.0;
 	
 	//some constants for jewelry sales
@@ -92,13 +91,11 @@ public class TotalDeposit {
 	 */
 	public double getTotalDeposit(){
 		boolean jewelrySalesApplicable = isJewelrySalesApplicable();
-		//boolean freeShipping = isEligibleForFreeShipping();
         int watchesQuantity = 0;
-		
 		double totalDeposit = 0.0;
 		double totalWatchPrice = 0.0;
 		
-		for (OrderItem orderItem:order.getOrderItems()){
+		for (OrderItem orderItem : order.getOrderItems()){
 			if (orderItem.getProductType() == ProductType.WATCHES
 					&&
 				order.getDate().after(watchReferralStartDate)
@@ -115,7 +112,7 @@ public class TotalDeposit {
 				if (orderItem.getPrice() * getReferralFeeRate(orderItem.getProductType())
 						> getReferralFeeMinimum(orderItem.getProductType())){
 					if (jewelrySalesApplicable &&
-							orderItem.getProductType() == ProductType.JEWELRY){
+							orderItem.getProductType() == ProductType.JEWELRY) {
 							totalDeposit += orderItem.getTotalPrice() *
 									(JEWELRY_SALES_RATE - getReferralFeeRate(ProductType.JEWELRY));
 					} else {
@@ -123,15 +120,13 @@ public class TotalDeposit {
 								(1.0 - getReferralFeeRate(orderItem.getProductType()));
 					}
 				} else {
-					if (jewelrySalesApplicable &&
-						    orderItem.getProductType() == ProductType.JEWELRY){
+					if (jewelrySalesApplicable && orderItem.getProductType() == ProductType.JEWELRY){
 							totalDeposit += (orderItem.getTotalPrice() * JEWELRY_SALES_RATE)
 									- (orderItem.getQuantity()
 									* getReferralFeeMinimum(orderItem.getProductType()));
 					} else {
 						totalDeposit += orderItem.getTotalPrice()
-								- (orderItem.getQuantity()
-								* getReferralFeeMinimum(orderItem.getProductType()));
+								- (orderItem.getQuantity() * getReferralFeeMinimum(orderItem.getProductType()));
 					}
 				}
 			}
@@ -207,21 +202,14 @@ public class TotalDeposit {
             }
         }
             //check the eligibility conditions
-        if (order.getShipmentType() == ShipmentType.DOMESTIC
-                || order.getShipmentType() == ShipmentType.DOMESTIC_EXPEDITED) {
-            if (productType == ProductType.BOOKS) {
-                if (totalPriceInType >= FREE_SHIPPING_BOOK_LIMIT) {
-                    return true;
-                }
-            } else if (productType == ProductType.ELECTRONICS) {
-                if (totalPriceInType > FREE_SHIPPING_ELECTRONICS_LIMIT) {
-                    return true;
+        if (productType != ProductType.FURNITUREDECOR) {
+		    if (productType == ProductType.BOOKS) {
+		        if (totalPriceInType >= FREE_SHIPPING_BOOK_LIMIT){
+		            return true;
                 }
             } else {
-                if (!(productType == ProductType.FURNITUREDECOR)) {
-                    if (totalPriceInType >= FREE_SHIPPING_LIMIT) {
-                        return true;
-                    }
+		        if (totalPriceInType >= FREE_SHIPPING_LIMIT) {
+		            return true;
                 }
             }
         }
@@ -245,7 +233,7 @@ public class TotalDeposit {
 			
 			//keep track of the number of jewelry items in the order
 			int jewelryCount = 0;
-			for (OrderItem orderItem:order.getOrderItems()){
+			for (OrderItem orderItem : order.getOrderItems()){
 				if (orderItem.getProductType() == ProductType.JEWELRY){
 					totalJewelryPrice += orderItem.getTotalPrice();
 					jewelryCount += orderItem.getQuantity();
@@ -311,7 +299,7 @@ public class TotalDeposit {
 			case CLOTHING:
 				return 6.99;
 			case ELECTRONICS:
-				return 11.99;
+				return 10.99;
 			case FURNITUREDECOR:
 				return 24.99;
 			case JEWELRY:
