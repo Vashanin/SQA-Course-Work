@@ -28,19 +28,16 @@ public class TestTotalDeposit {
 				1, 30.00));
 		order.setDate(calendar.getTime());
 		order.setShipment(ShipmentType.INTERNATIONAL);
-		
-		//double totalDeposit = new TotalDeposit(order).getTotalDeposit();
 
 		TotalDeposit deposit = new TotalDeposit(order);
 
 		assertTrue(Math.abs(
 				deposit.getTotalDeposit()
-				- 793.47 ) < 1e-10); //what the program calculates (because of a bug)
-				//- 868.32 ) < 1e-10); //true value
+				- 793.47 ) < 1e-10);
 	}
 
 	@Test
-	public void blackBoxTest() throws Exception {
+	public void blackBoxTestByThree() throws Exception {
         ParseFile csvFile = new ParseFile("TotalDeposit-output.csv");
         LinkedList<Order> testOrders = csvFile.getOrdersFromCSV();
 
@@ -52,17 +49,11 @@ public class TestTotalDeposit {
             double actualValue = deposit.getTotalDeposit();
             double expectedValue = fixedDeposit.getTotalDeposit();
 
-            //System.out.println("#" + i);
-            //System.out.println("Actual value: " + actualValue);
-            //System.out.println("Expected value: " + expectedValue);
-
             boolean assertTrue = (Math.abs(actualValue - expectedValue) < 1e-10);
-            //System.out.println("Assert equals: " + assertTrue);
 
             if (assertTrue)
                 amountOfPassedTests++;
 
-            //System.out.println();
         }
 
         System.out.println("Total amount of tests: " + testOrders.size());

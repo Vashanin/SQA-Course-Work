@@ -86,7 +86,7 @@ public class TotalDeposit {
 	 * 4) - referral fees;
 	 * 5) - variable closure fees;
 	 * 6) - per-item fee of $0.99. 
-	 * 
+	 * ё
 	 * @return Total amount deposited to a seller's
 	 * account.
 	 */
@@ -260,7 +260,7 @@ public class TotalDeposit {
 			
 			//keep track of the number of jewelry items in the order
 			int jewelryCount = 0;
-			for (OrderItem orderItem:order.getOrderItems()){
+			for (OrderItem orderItem : order.getOrderItems()){
 				if (orderItem.getProductType() == ProductType.JEWELRY){
 					totalJewelryPrice += orderItem.getTotalPrice();
 					jewelryCount++;
@@ -365,7 +365,7 @@ public class TotalDeposit {
 		}
 	}
 	
-	private double getReferralFeeRate(ProductType productType){
+	private double getReferralFeeRate(ProductType productType) {
 		switch (productType){
 			case BOOKS:
 				return 0.15;
