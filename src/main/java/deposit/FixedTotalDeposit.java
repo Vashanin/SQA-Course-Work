@@ -111,8 +111,7 @@ public class FixedTotalDeposit {
 				//including the sales and referral fees
 				if (orderItem.getPrice() * getReferralFeeRate(orderItem.getProductType())
 						> getReferralFeeMinimum(orderItem.getProductType())){
-					if (jewelrySalesApplicable &&
-							orderItem.getProductType() == ProductType.JEWELRY) {
+					if (jewelrySalesApplicable && orderItem.getProductType() == ProductType.JEWELRY) {
 							totalDeposit += orderItem.getTotalPrice() *
 									(JEWELRY_SALES_RATE - getReferralFeeRate(ProductType.JEWELRY));
 					} else {

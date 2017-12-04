@@ -20,7 +20,7 @@ public class OrderItem {
 	private boolean giftWrap;
 	
 	public OrderItem(ProductType productType, int quantity,
-			double price, boolean giftWrap) {
+					 double price, boolean giftWrap) {
 		this.productType = productType;
 		this.quantity = quantity;
 		this.price = price;
