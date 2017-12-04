@@ -51,16 +51,16 @@ public class TotalDeposit {
 		this.order = new Order(order);
 		
 		//set dates
-		calendar.set(2017, 12, 16);
+		calendar.set(2017, Calendar.DECEMBER, 16);
 		jewelrySalesStartDate = calendar.getTime();
 		
-		calendar.set(2018, 3, 30);
+		calendar.set(2018, Calendar.MARCH, 30);
 		jewelrySalesEndDate = calendar.getTime();
 		
-		calendar.set(2018, 1, 16);
+		calendar.set(2018, Calendar.JANUARY, 16);
 		watchReferralStartDate = calendar.getTime();
 		
-		calendar.set(2018, 9, 30);
+		calendar.set(2018, Calendar.SEPTEMBER, 30);
 		watchReferralEndDate = calendar.getTime();
 	}
 	
@@ -299,7 +299,7 @@ public class TotalDeposit {
 			case CLOTHING:
 				return 6.99;
 			case ELECTRONICS:
-				return 10.99;
+				return 11.99;
 			case FURNITUREDECOR:
 				return 24.99;
 			case JEWELRY:
@@ -327,7 +327,7 @@ public class TotalDeposit {
 				return 0.15;
 			case VIDEO:
 				return 0.15;
-			case WATCHES:
+			case WATCHES: //залежність від дати. переглянути(15 cт)
 				return 0.15;
 			default:
 				return 0.0;
