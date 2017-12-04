@@ -15,7 +15,7 @@ import order.ShipmentType;
  * @author Dan Tavrov
  *
  */
-public class TestTotalDeposit {
+public class FixedTotalDeposit {
 	//the order being sold
 	private Order order;
 	
@@ -47,7 +47,7 @@ public class TestTotalDeposit {
 	private final double JEWELRY_SALES_LIMIT = 500.0;
 	private final double JEWELRY_SALES_RATE = 0.9;
 	
-	public TestTotalDeposit(Order order){
+	public FixedTotalDeposit(Order order){
 		this.order = new Order(order);
 		
 		//set dates
