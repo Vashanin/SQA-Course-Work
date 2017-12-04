@@ -164,16 +164,31 @@ public class FixedTotalDeposit {
 
             if (totalWatchPrice <= WATCH_REFERRAL_LIMIT1){
                 //decide, which one to apply---regular or minimum
-                if (totalWatchPrice * WATCH_REFERRAL_RATE1 > getReferralFeeMinimum(ProductType.WATCHES) ){
-                    totalDeposit += totalWatchPrice * (1.0 - WATCH_REFERRAL_RATE1);
+                if (totalWatchPrice * WATCH_REFERRAL_RATE1
+                        > getReferralFeeMinimum(ProductType.WATCHES)){
+                    totalDeposit += totalWatchPrice
+                            * (1.0 - WATCH_REFERRAL_RATE1);
                 }
                 else{
-                    totalDeposit += totalWatchPrice - getReferralFeeMinimum(ProductType.WATCHES) * watchesQuantity;
+                    totalDeposit += totalWatchPrice
+                            - getReferralFeeMinimum(ProductType.WATCHES);
                 }
-            } else if (totalWatchPrice <= WATCH_REFERRAL_LIMIT2){
-                totalDeposit += totalWatchPrice * (1.0 - WATCH_REFERRAL_RATE2);
-            } else {
-                totalDeposit += totalWatchPrice * (1.0 - WATCH_REFERRAL_RATE3);
+            }
+            else if (totalWatchPrice <= WATCH_REFERRAL_LIMIT2){
+                totalDeposit +=
+                        WATCH_REFERRAL_LIMIT1
+                                * (1.0 - WATCH_REFERRAL_RATE1) +
+                                (totalWatchPrice - WATCH_REFERRAL_LIMIT1)
+                                        * (1.0 - WATCH_REFERRAL_RATE2);
+            }
+            else{
+                totalDeposit +=
+                        WATCH_REFERRAL_LIMIT1
+                                * (1.0 - WATCH_REFERRAL_RATE2) +
+                                (WATCH_REFERRAL_RATE2 - WATCH_REFERRAL_LIMIT1)
+                                        * (1.0 - WATCH_REFERRAL_RATE1) +
+                                (totalWatchPrice - WATCH_REFERRAL_LIMIT2)
+                                        * (1.0 - WATCH_REFERRAL_RATE3);
             }
         }
 
