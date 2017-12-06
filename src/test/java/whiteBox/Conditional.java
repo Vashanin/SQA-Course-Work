@@ -683,4 +683,119 @@ public class Conditional {
 
         assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
     }
+
+
+    @Test
+    public void whiteBoxConditional35() {
+        calendar.set(2018, Calendar.MARCH, 01);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 2, 20, false));
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 2, 20, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxConditional36() {
+        calendar.set(2017, Calendar.OCTOBER, 10);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 250, true));
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 20, 21, false));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxConditional37() {
+        calendar.set(2018, Calendar.NOVEMBER, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 0.9, true));
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 200, false));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxConditional38() {
+        calendar.set(2018, Calendar.MARCH, 01);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 0.9, false));
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 100, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxConditional39() {
+        calendar.set(2016, Calendar.APRIL, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.ELECTRONICS, 1, 2, false));
+        order.addOrderItem(new OrderItem(ProductType.ELECTRONICS, 3, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxConditiona40() {
+        calendar.set(2019, Calendar.MAY, 30);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 1, 1, false));
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 4, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
 }

@@ -54,7 +54,7 @@
                         <param>deposit.TotalDeposit</param>
                     </targetClasses>
                     <targetTests>
-                        <param>blackBox.ThreeWay</param>
+                        <param>whiteBox.Conditional</param>
                     </targetTests>
                 </configuration>
             </plugin>
