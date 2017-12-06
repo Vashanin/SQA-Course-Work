@@ -17,6 +17,24 @@
                     <target>1.7</target>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.pitest</groupId>
+                <artifactId>pitest-maven</artifactId>
+                <version>0.32</version>
+            </plugin>
+            <plugin>
+                <groupId>org.pitest</groupId>
+                <artifactId>pitest-maven</artifactId>
+                <version>0.32</version>
+                <configuration>
+                    <targetClasses>
+                        <param>deposit.TotalDeposit</param>
+                    </targetClasses>
+                    <targetTests>
+                        <param>TestTotalDeposit</param>
+                    </targetTests>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
