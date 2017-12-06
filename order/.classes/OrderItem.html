@@ -1,0 +1,166 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html id="htmlId">
+<head>
+  <title>Coverage Report :: OrderItem</title>
+  <style type="text/css">
+    @import "../../.css/coverage.css";
+  </style>
+</head>
+
+<body>
+<div class="header"></div>
+
+<div class="content">
+<div class="breadCrumbs">
+    [ <a href="../../index.html">all classes</a> ]
+    [ <a href="../index.html">order</a> ]
+</div>
+
+<h1>Coverage Summary for Class: OrderItem (order)</h1>
+
+<table class="coverageStats">
+<tr>
+  <th class="name">Class</th>
+<th class="coverageStat 
+">
+  Class, %
+</th>
+<th class="coverageStat 
+">
+  Method, %
+</th>
+<th class="coverageStat 
+">
+  Line, %
+</th>
+</tr>
+<tr>
+  <td class="name">OrderItem</td>
+<td class="coverageStat">
+  <span class="percent">
+    100%
+  </span>
+  <span class="absValue">
+    (1/ 1)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    50%
+  </span>
+  <span class="absValue">
+    (6/ 12)
+  </span>
+</td>
+<td class="coverageStat">
+  <span class="percent">
+    36.7%
+  </span>
+  <span class="absValue">
+    (11/ 30)
+  </span>
+</td>
+</tr>
+
+</table>
+
+<br/>
+<br/>
+
+
+<div class="sourceCode"><i>1</i>&nbsp;package order;
+<i>2</i>&nbsp;
+<i>3</i>&nbsp;/**
+<i>4</i>&nbsp; * Single items that go in an order.
+<i>5</i>&nbsp; * 
+<i>6</i>&nbsp; * @author Dan Tavrov
+<i>7</i>&nbsp; *
+<i>8</i>&nbsp; */
+<i>9</i>&nbsp;public class OrderItem {
+<i>10</i>&nbsp;	//product type
+<i>11</i>&nbsp;	private ProductType productType;
+<i>12</i>&nbsp;	
+<i>13</i>&nbsp;	//number of the items of this kind
+<i>14</i>&nbsp;	private int quantity;
+<i>15</i>&nbsp;	
+<i>16</i>&nbsp;	//price of a single item of this kind
+<i>17</i>&nbsp;	private double price;
+<i>18</i>&nbsp;	
+<i>19</i>&nbsp;	//whether it needs to be gift wrapped
+<i>20</i>&nbsp;	private boolean giftWrap;
+<i>21</i>&nbsp;	
+<i>22</i>&nbsp;	public OrderItem(ProductType productType, int quantity,
+<b class="fc"><i>23</i>&nbsp;                     double price, boolean giftWrap) {</b>
+<b class="fc"><i>24</i>&nbsp;		this.productType = productType;</b>
+<b class="fc"><i>25</i>&nbsp;		this.quantity = quantity;</b>
+<b class="fc"><i>26</i>&nbsp;		this.price = price;</b>
+<b class="fc"><i>27</i>&nbsp;		this.giftWrap = giftWrap;</b>
+<b class="fc"><i>28</i>&nbsp;	}</b>
+<i>29</i>&nbsp;	
+<i>30</i>&nbsp;	public OrderItem(ProductType productType, int quantity,
+<b class="nc"><i>31</i>&nbsp;                     double price) {</b>
+<b class="nc"><i>32</i>&nbsp;		this.productType = productType;</b>
+<b class="nc"><i>33</i>&nbsp;		this.quantity = quantity;</b>
+<b class="nc"><i>34</i>&nbsp;		this.price = price;</b>
+<b class="nc"><i>35</i>&nbsp;		this.giftWrap = false;</b>
+<b class="nc"><i>36</i>&nbsp;	}</b>
+<i>37</i>&nbsp;
+<i>38</i>&nbsp;	public ProductType getProductType() {
+<b class="fc"><i>39</i>&nbsp;		return productType;</b>
+<i>40</i>&nbsp;	}
+<i>41</i>&nbsp;	
+<i>42</i>&nbsp;	public void setProductType(ProductType productType) {
+<b class="nc"><i>43</i>&nbsp;		this.productType = productType;</b>
+<b class="nc"><i>44</i>&nbsp;	}</b>
+<i>45</i>&nbsp;	
+<i>46</i>&nbsp;	public int getQuantity() {
+<b class="fc"><i>47</i>&nbsp;		return quantity;</b>
+<i>48</i>&nbsp;	}
+<i>49</i>&nbsp;	
+<i>50</i>&nbsp;	public void setQuantity(int quantity) {
+<b class="nc"><i>51</i>&nbsp;		this.quantity = quantity;</b>
+<b class="nc"><i>52</i>&nbsp;	}</b>
+<i>53</i>&nbsp;	
+<i>54</i>&nbsp;	public double getPrice() {
+<b class="fc"><i>55</i>&nbsp;		return price;</b>
+<i>56</i>&nbsp;	}
+<i>57</i>&nbsp;	
+<i>58</i>&nbsp;	public void setPrice(double price) {
+<b class="nc"><i>59</i>&nbsp;		this.price = price;</b>
+<b class="nc"><i>60</i>&nbsp;	}</b>
+<i>61</i>&nbsp;	
+<i>62</i>&nbsp;	public boolean isGiftWrap() {
+<b class="fc"><i>63</i>&nbsp;		return giftWrap;</b>
+<i>64</i>&nbsp;	}
+<i>65</i>&nbsp;
+<i>66</i>&nbsp;	public void setGiftWrap(boolean giftWrap) {
+<b class="nc"><i>67</i>&nbsp;		this.giftWrap = giftWrap;</b>
+<b class="nc"><i>68</i>&nbsp;	}</b>
+<i>69</i>&nbsp;
+<i>70</i>&nbsp;	public double getTotalPrice(){
+<b class="fc"><i>71</i>&nbsp;		return price * quantity;</b>
+<i>72</i>&nbsp;	}
+<i>73</i>&nbsp;	
+<i>74</i>&nbsp;	public String toString(){
+<b class="nc"><i>75</i>&nbsp;		return new StringBuilder(productType.toString()).append(&quot;: &quot;).</b>
+<b class="nc"><i>76</i>&nbsp;				append(quantity).append(&quot; item(s) &quot;).</b>
+<b class="nc"><i>77</i>&nbsp;				append(&quot;at price $&quot;).append(price).append(&quot;, &quot;).</b>
+<b class="nc"><i>78</i>&nbsp;				append(&quot;with &quot;).append(</b>
+<i>79</i>&nbsp;						(!giftWrap)?(&quot;no &quot;):(&quot;&quot;)
+<i>80</i>&nbsp;						).
+<b class="nc"><i>81</i>&nbsp;						append(&quot;giftwrap&quot;).toString();		</b>
+<i>82</i>&nbsp;	}
+<i>83</i>&nbsp;}
+</div>
+</div>
+
+<div class="footer">
+    
+    <div style="float:right;">generated on 2017-12-06 18:08</div>
+</div>
+</body>
+</html>
