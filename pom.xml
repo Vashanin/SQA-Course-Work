@@ -31,7 +31,7 @@
                         <param>deposit.TotalDeposit</param>
                     </targetClasses>
                     <targetTests>
-                        <param>TestTotalDeposit</param>
+                        <param>blackBox.ThreeWay</param>
                     </targetTests>
                 </configuration>
             </plugin>

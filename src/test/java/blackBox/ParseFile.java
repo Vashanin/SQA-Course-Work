@@ -1,3 +1,5 @@
+package blackBox;
+
 import order.Order;
 import order.OrderItem;
 import order.ProductType;
