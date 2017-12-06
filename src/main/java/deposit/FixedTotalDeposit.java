@@ -1,12 +1,12 @@
 package deposit;
 
-import java.util.Calendar;
-import java.util.Date;
-
 import order.Order;
 import order.OrderItem;
 import order.ProductType;
 import order.ShipmentType;
+
+import java.util.Calendar;
+import java.util.Date;
 
 /**
  * Class for calculating total amount deposited
@@ -41,26 +41,41 @@ public class FixedTotalDeposit {
 
     //limits for free shipping
     private final double FREE_SHIPPING_BOOK_LIMIT = 25.0;
+
+    /* №1
+     * Для електроніки не встановлено окремого ліміту для безкоштовної доствки
+     *
+     * private final double FREE_SHIPPING_ELECTRONICS_LIMIT = 99.0;
+     */
+
     private final double FREE_SHIPPING_LIMIT = 49.0;
 
     //some constants for jewelry sales
     private final double JEWELRY_SALES_LIMIT = 500.0;
+
     private final double JEWELRY_SALES_RATE = 0.9;
 
     public FixedTotalDeposit(Order order){
         this.order = new Order(order);
 
         //set dates
-        calendar.set(2017, Calendar.DECEMBER, 16);
+        /*
+        * #2
+        * В Java розрахунок місяців починається з нуля
+        *
+        * WARNING!
+        * Розібратися з часом.
+        * */
+        calendar.set(2017, 11, 16);
         jewelrySalesStartDate = calendar.getTime();
 
-        calendar.set(2018, Calendar.MARCH, 30);
+        calendar.set(2018, 2, 30);
         jewelrySalesEndDate = calendar.getTime();
 
-        calendar.set(2018, Calendar.JANUARY, 16);
+        calendar.set(2018, 0, 16);
         watchReferralStartDate = calendar.getTime();
 
-        calendar.set(2018, Calendar.SEPTEMBER, 30);
+        calendar.set(2018, 8, 30);
         watchReferralEndDate = calendar.getTime();
     }
 
@@ -91,11 +106,12 @@ public class FixedTotalDeposit {
      */
     public double getTotalDeposit(){
         boolean jewelrySalesApplicable = isJewelrySalesApplicable();
-        int watchesQuantity = 0;
+        boolean freeShipping = isEligibleForFreeShipping();
+
         double totalDeposit = 0.0;
         double totalWatchPrice = 0.0;
 
-        for (OrderItem orderItem : order.getOrderItems()){
+        for (OrderItem orderItem:order.getOrderItems()){
             if (orderItem.getProductType() == ProductType.WATCHES
                     &&
                     order.getDate().after(watchReferralStartDate)
@@ -105,37 +121,66 @@ public class FixedTotalDeposit {
                 //on the total price, we first calculate it,
                 //and then we will analyze it
                 totalWatchPrice += orderItem.getTotalPrice();
-                watchesQuantity += orderItem.getQuantity();
             } else {
                 //first calculate the item price,
                 //including the sales and referral fees
-                if (orderItem.getPrice() * getReferralFeeRate(orderItem.getProductType())
+                if (orderItem.getPrice()
+                        * getReferralFeeRate(orderItem.getProductType())
                         > getReferralFeeMinimum(orderItem.getProductType())){
                     if (jewelrySalesApplicable &&
-                            orderItem.getProductType() == ProductType.JEWELRY) {
+                            orderItem.getProductType() == ProductType.JEWELRY){
                         totalDeposit += orderItem.getTotalPrice() *
                                 (JEWELRY_SALES_RATE - getReferralFeeRate(ProductType.JEWELRY));
-                    } else {
+                    }
+                    else{
                         totalDeposit += orderItem.getTotalPrice() *
                                 (1.0 - getReferralFeeRate(orderItem.getProductType()));
                     }
-                } else {
-                    if (jewelrySalesApplicable && orderItem.getProductType() == ProductType.JEWELRY){
+                }
+                else{
+                    if (jewelrySalesApplicable &&
+                            orderItem.getProductType() == ProductType.JEWELRY){
                         totalDeposit += (orderItem.getTotalPrice() * JEWELRY_SALES_RATE)
                                 - (orderItem.getQuantity()
                                 * getReferralFeeMinimum(orderItem.getProductType()));
-                    } else {
+                    }
+                    else{
                         totalDeposit += orderItem.getTotalPrice()
-                                - (orderItem.getQuantity() * getReferralFeeMinimum(orderItem.getProductType()));
+                                - (orderItem.getQuantity()
+                                * getReferralFeeMinimum(orderItem.getProductType()));
                     }
                 }
             }
 
             //add shipment charges
-            if (!isEligibleForFreeShipping(orderItem.getProductType())){
+
+            /*
+             * BUG!!!
+             *
+             * №10
+             *
+             * Необхідно додати перевірку на тип доставки, оскільки INTERNATIONAL
+             * доставка не може бути безкоштовною.
+             *
+             */
+
+            /*
+             * BUG!!!
+             *
+             * #6
+             *
+             * Необхідно ввести перевірку на фурнітуру та декор, оскільки для неї відсутня
+             * безкоштовна доставка
+             *
+             */
+            if (!freeShipping
+                    || order.getShipmentType() == ShipmentType.INTERNATIONAL
+                    || order.getShipmentType() == ShipmentType.INTERNATIONAL_EXPEDITED
+                    || orderItem.getProductType() == ProductType.FURNITUREDECOR){
                 //unless the order is eligible for free shipping
                 totalDeposit += orderItem.getQuantity()
-                        * getShippingRate(orderItem.getProductType(), order.getShipmentType());
+                        * getShippingRate(orderItem.getProductType(),
+                        order.getShipmentType());
             }
 
             //add gift wrap charges
@@ -150,13 +195,21 @@ public class FixedTotalDeposit {
                     order.getShipmentType());
 
             //subtract per-item fee
+            /*
+            * BUG!!!
+            *
+            * #11
+            * 0.99$ не включно
+            *
+            * */
+
             if (orderItem.getPrice() > PER_ITEM_FEE){
                 totalDeposit -= orderItem.getQuantity() * PER_ITEM_FEE;
             }
         }
 
         //tackle the problem of referral fees for watches
-        if (totalWatchPrice > 0.0){
+        if (totalWatchPrice > 0.0) {
             //if there were some watches in the order,
             //this means that the date of the order
             //falls in the specified range, and we
@@ -182,10 +235,17 @@ public class FixedTotalDeposit {
                                         * (1.0 - WATCH_REFERRAL_RATE2);
             }
             else{
+
+                /*
+                 * BUG!!!
+                 *
+                 * #3
+                 * Замінити totalWatchPrice на WATCH_REFERRAL_LIMIT2
+                 */
                 totalDeposit +=
                         WATCH_REFERRAL_LIMIT1
                                 * (1.0 - WATCH_REFERRAL_RATE2) +
-                                (WATCH_REFERRAL_RATE2 - WATCH_REFERRAL_LIMIT1)
+                                (WATCH_REFERRAL_LIMIT2 - WATCH_REFERRAL_LIMIT1)
                                         * (1.0 - WATCH_REFERRAL_RATE1) +
                                 (totalWatchPrice - WATCH_REFERRAL_LIMIT2)
                                         * (1.0 - WATCH_REFERRAL_RATE3);
@@ -202,32 +262,59 @@ public class FixedTotalDeposit {
      * @return Returns true if the order is eligible for
      * free shipping.
      */
-    private boolean isEligibleForFreeShipping(ProductType productType){
-        double totalPriceInType = 0.0;
+    private boolean isEligibleForFreeShipping(){
+        for (ProductType productType:ProductType.values()){
+            /*
+            * BUG!!!
+            *
+            * #12
+            * totalPrice рахується по кожному типу окремо
+            *
+            * */
+            double totalPriceInType = 0.0;
 
-        if (order.getShipmentType() == ShipmentType.INTERNATIONAL ||
-                order.getShipmentType() == ShipmentType.INTERNATIONAL_EXPEDITED){
-            return false;
-        }
-
-        for (OrderItem orderItem : order.getOrderItems()) {
             //calculate the total price in this category
-            if (orderItem.getProductType() == productType) {
-                totalPriceInType += orderItem.getTotalPrice();
+            for (OrderItem orderItem:order.getOrderItems()){
+                if (orderItem.getProductType() == productType){
+                    totalPriceInType += orderItem.getTotalPrice();
+                }
             }
-        }
-        //check the eligibility conditions
-        if (productType != ProductType.FURNITUREDECOR) {
-            if (productType == ProductType.BOOKS) {
+
+            //check the eligibility conditions
+            if (productType == ProductType.BOOKS){
+                /*
+                * BUG!!!
+                *
+                * #4
+                * FREE_SHIPPING_BOOK_LIMIT знак >= включно.
+                *
+                * */
                 if (totalPriceInType >= FREE_SHIPPING_BOOK_LIMIT){
                     return true;
                 }
-            } else {
-                if (totalPriceInType >= FREE_SHIPPING_LIMIT) {
+            }
+
+            /*
+             * BUG!!!
+             *
+             * # 5
+             * Див. помилку №1. Зайва перевірка для електроніки.
+             *
+             * else if (productType == ProductType.ELECTRONICS){
+             *     if (totalPriceInType > FREE_SHIPPING_ELECTRONICS_LIMIT){
+             *         return true;
+             *     }
+             * }
+             *
+             */
+
+            else {
+                if (totalPriceInType >= FREE_SHIPPING_LIMIT){
                     return true;
                 }
             }
         }
+
         return false;
     }
 
@@ -248,9 +335,20 @@ public class FixedTotalDeposit {
 
             //keep track of the number of jewelry items in the order
             int jewelryCount = 0;
+
             for (OrderItem orderItem : order.getOrderItems()){
                 if (orderItem.getProductType() == ProductType.JEWELRY){
                     totalJewelryPrice += orderItem.getTotalPrice();
+
+                    /*
+                     * BUG!!!
+                     *
+                     * #13
+                     *
+                     * Необхідно рахувати усі одиниці ювелірних виробів, а не одиниці
+                     * замовлень з ними
+                     */
+
                     jewelryCount += orderItem.getQuantity();
                 }
             }
@@ -265,7 +363,8 @@ public class FixedTotalDeposit {
         return false;
     }
 
-    private double getShippingRate(ProductType productType, ShipmentType shipmentType){
+    private double getShippingRate(ProductType productType,
+                                   ShipmentType shipmentType){
         switch (productType){
             case BOOKS:
                 switch (shipmentType){
@@ -280,8 +379,57 @@ public class FixedTotalDeposit {
                     default:
                         return 0.00;
                 }
-            case MUSIC: case VIDEO:
-                switch (order.getShipmentType()){
+
+                /*
+                    BUG!!!
+
+                    # 7
+                    Для Clothing не визначено окремої вартості доставки
+
+                    case CLOTHING:
+                        switch (order.getShipmentType()){
+                            case DOMESTIC:
+                                return 3.99;
+                            case DOMESTIC_EXPEDITED:
+                                return 6.99;
+                            case INTERNATIONAL:
+                                return 16.95;
+                            case INTERNATIONAL_EXPEDITED:
+                                return 46.50;
+                            default:
+                                return 0.00;
+                        }
+                */
+
+            case MUSIC:
+                /*
+                 * BUG!!!
+                 *
+                 * #14
+                 * Замість order.getShipmentType() необхідно вкахувати просто
+                 * shipmentType
+                 */
+                switch (shipmentType){
+                    case DOMESTIC:
+                        return 3.99;
+                    case DOMESTIC_EXPEDITED:
+                        /*
+                        * BUG!!!
+                        *
+                        * # 15
+                        * Вартість доставки 6.19$, а не 6.99$.
+                        *
+                        * */
+                        return 6.99;
+                    case INTERNATIONAL:
+                        return 14.95;
+                    case INTERNATIONAL_EXPEDITED:
+                        return 46.50;
+                    default:
+                        return 0.00;
+                }
+            case VIDEO:
+                switch (shipmentType){
                     case DOMESTIC:
                         return 3.99;
                     case DOMESTIC_EXPEDITED:
@@ -294,7 +442,7 @@ public class FixedTotalDeposit {
                         return 0.00;
                 }
             default:
-                switch (order.getShipmentType()){
+                switch (shipmentType){
                     case DOMESTIC:
                         return 4.49;
                     case DOMESTIC_EXPEDITED:
@@ -314,6 +462,13 @@ public class FixedTotalDeposit {
             case CLOTHING:
                 return 6.99;
             case ELECTRONICS:
+                /*
+                 * BUG!!!
+                 *
+                 * №8
+                 * Для ELECTRONICS вартість обгортки становить 11.99$, а не 10.99;
+                 *
+                 */
                 return 11.99;
             case FURNITUREDECOR:
                 return 24.99;
@@ -326,7 +481,7 @@ public class FixedTotalDeposit {
         }
     }
 
-    private double getReferralFeeRate(ProductType productType){
+    private double getReferralFeeRate(ProductType productType) {
         switch (productType){
             case BOOKS:
                 return 0.15;
@@ -342,7 +497,7 @@ public class FixedTotalDeposit {
                 return 0.15;
             case VIDEO:
                 return 0.15;
-            case WATCHES: //залежність від дати. переглянути(15 cт)
+            case WATCHES:
                 return 0.15;
             default:
                 return 0.0;
@@ -380,6 +535,13 @@ public class FixedTotalDeposit {
             case VIDEO:
                 return 1.35;
             case MUSIC:
+                /*
+                * BUG!!!
+                *
+                * #9
+                * Variable closing fees don't apply to music
+                *
+                * */
                 return 0.0;
             default:
                 switch (shipmentType){
