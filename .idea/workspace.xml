@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2007c353-a471-4dbe-b0b3-ad4789db85a3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/blackBox/OneWay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/blackBox/ThreeWay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/whiteBox/BasicPath.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/whiteBox/Conditional.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/whiteBox/Statement.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/1TotalDeposit-output.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/2TotalDeposit-output.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/TotalDeposit-output.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/conditional-white-box.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/deposit-output-2ways.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/deposit-output-3ways.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/statement-white-box.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/resources/white-box.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/TotalDeposit-output.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/deposit-output-2ways.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/deposit-output-3ways.csv" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/ParseFile.java" afterPath="$PROJECT_DIR$/src/test/java/blackBox/ParseFile.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/TestTotalDeposit.java" afterPath="$PROJECT_DIR$/src/test/java/blackBox/TwoWay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/whiteBox/BasicPath.java" afterPath="$PROJECT_DIR$/src/test/java/whiteBox/BasicPath.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/whiteBox/Conditional.java" afterPath="$PROJECT_DIR$/src/test/java/whiteBox/Conditional.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/whiteBox/Statement.java" afterPath="$PROJECT_DIR$/src/test/java/whiteBox/Statement.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,12 +71,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conditional.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Conditional.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/whiteBox/Conditional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="420">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="21" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,19 +86,23 @@
       <file leaf-file-name="Statement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/whiteBox/Statement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="380">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BasicPath.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BasicPath.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/whiteBox/BasicPath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="360">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -185,9 +174,10 @@
         <option value="$PROJECT_DIR$/src/test/java/blackBox/BlackBoxTwoWay.java" />
         <option value="$PROJECT_DIR$/src/test/java/blackBox/BlackBoxOneWay.java" />
         <option value="$PROJECT_DIR$/src/test/java/whiteBox/Basicpath.java" />
-        <option value="$PROJECT_DIR$/src/test/java/whiteBox/BasicPath.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests.java" />
         <option value="$PROJECT_DIR$/src/test/java/whiteBox/Conditional.java" />
+        <option value="$PROJECT_DIR$/src/test/java/whiteBox/Statement.java" />
+        <option value="$PROJECT_DIR$/src/test/java/whiteBox/BasicPath.java" />
       </list>
     </option>
   </component>
@@ -877,7 +867,7 @@
       <workItem from="1512491296955" duration="2729000" />
       <workItem from="1512497488015" duration="4512000" />
       <workItem from="1512509924517" duration="624000" />
-      <workItem from="1512563255037" duration="11674000" />
+      <workItem from="1512563255037" duration="12327000" />
     </task>
     <servers />
   </component>
@@ -914,7 +904,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27974000" />
+    <option name="totallyTimeSpent" value="28627000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
@@ -1448,22 +1438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/whiteBox/Statement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/whiteBox/BasicPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/blackBox/TwoWay.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -1484,9 +1458,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/whiteBox/Conditional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="420">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/whiteBox/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/whiteBox/BasicPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

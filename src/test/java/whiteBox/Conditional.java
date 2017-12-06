@@ -16,9 +16,9 @@ import static org.junit.Assert.assertTrue;
 /**
  * Created by vashanin on 06.12.17.
  */
+
 public class Conditional {
     Calendar calendar = Calendar.getInstance();
-
 
     @Test
     public void whiteBoxConditional0() {
