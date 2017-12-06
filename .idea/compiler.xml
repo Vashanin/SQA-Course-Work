@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SQA" />
+        <module name="SQA-Course-Work" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="SQA" target="1.7" />
+      <module name="SQA-Course-Work" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

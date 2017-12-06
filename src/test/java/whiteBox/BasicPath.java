@@ -680,4 +680,764 @@ public class BasicPath {
 
         assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
     }
+
+
+    @Test
+    public void whiteBoxBasicPath35() {
+        calendar.set(2017, Calendar.OCTOBER, 10);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 1, 1, false));
+        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 2, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath36() {
+        calendar.set(2017, Calendar.JANUARY, 31);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 1, 2, true));
+        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 1, 1, false));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath37() {
+        calendar.set(2019, Calendar.JANUARY, 01);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 1, 3, false));
+        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 2, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath38() {
+        calendar.set(2019, Calendar.MAY, 30);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 2, 1, true));
+        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 3, 1, false));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath39() {
+        calendar.set(2016, Calendar.APRIL, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 2, 2, true));
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 1, false));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath40() {
+        calendar.set(2020, Calendar.OCTOBER, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 3, false));
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 2, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath41() {
+        calendar.set(2016, Calendar.MAY, 15);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 4, false));
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath42() {
+        calendar.set(2015, Calendar.DECEMBER, 30);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 1, true));
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 2, 1, false));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath43() {
+        calendar.set(2017, Calendar.OCTOBER, 10);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 2, 2, false));
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath44() {
+        calendar.set(2017, Calendar.JANUARY, 01);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 1, 3, false));
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 2, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath45() {
+        calendar.set(2019, Calendar.JANUARY, 01);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 1, 4, false));
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 3, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath46() {
+        calendar.set(2019, Calendar.MAY, 30);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 2, 1, false));
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 1, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath47() {
+        calendar.set(2016, Calendar.APRIL, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 1, 2, false));
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 2, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath48() {
+        calendar.set(2017, Calendar.OCTOBER, 10);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.ELECTRONICS, 1, 3, false));
+        order.addOrderItem(new OrderItem(ProductType.ELECTRONICS, 3, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath49() {
+        calendar.set(2017, Calendar.JANUARY, 01);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.ELECTRONICS, 2, 4, false));
+        order.addOrderItem(new OrderItem(ProductType.ELECTRONICS, 1, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath50() {
+        calendar.set(2019, Calendar.JANUARY, 01);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.ELECTRONICS, 1, 1, false));
+        order.addOrderItem(new OrderItem(ProductType.ELECTRONICS, 2, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath51() {
+        calendar.set(2019, Calendar.MAY, 30);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.ELECTRONICS, 3, 2, false));
+        order.addOrderItem(new OrderItem(ProductType.ELECTRONICS, 3, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath52() {
+        calendar.set(2016, Calendar.APRIL, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.MUSIC, 1, 3, false));
+        order.addOrderItem(new OrderItem(ProductType.MUSIC, 1, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath53() {
+        calendar.set(2019, Calendar.MAY, 30);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.MUSIC, 1, 4, false));
+        order.addOrderItem(new OrderItem(ProductType.MUSIC, 2, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath54() {
+        calendar.set(2017, Calendar.JANUARY, 01);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.MUSIC, 2, 2, false));
+        order.addOrderItem(new OrderItem(ProductType.MUSIC, 3, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath55() {
+        calendar.set(2019, Calendar.JANUARY, 01);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.MUSIC, 1, 2, false));
+        order.addOrderItem(new OrderItem(ProductType.MUSIC, 1, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath56() {
+        calendar.set(2019, Calendar.MAY, 30);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.CLOTHING, 1, 3, false));
+        order.addOrderItem(new OrderItem(ProductType.CLOTHING, 2, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath57() {
+        calendar.set(2016, Calendar.APRIL, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.CLOTHING, 2, 1, false));
+        order.addOrderItem(new OrderItem(ProductType.CLOTHING, 3, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath58() {
+        calendar.set(2017, Calendar.OCTOBER, 10);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.CLOTHING, 1, 2, false));
+        order.addOrderItem(new OrderItem(ProductType.CLOTHING, 1, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath59() {
+        calendar.set(2017, Calendar.JANUARY, 01);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.CLOTHING, 3, 3, false));
+        order.addOrderItem(new OrderItem(ProductType.CLOTHING, 2, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath60() {
+        calendar.set(2019, Calendar.JANUARY, 01);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.FURNITUREDECOR, 1, 2, false));
+        order.addOrderItem(new OrderItem(ProductType.FURNITUREDECOR, 3, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath61() {
+        calendar.set(2019, Calendar.MAY, 30);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.FURNITUREDECOR, 1, 1, false));
+        order.addOrderItem(new OrderItem(ProductType.FURNITUREDECOR, 4, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath62() {
+        calendar.set(2016, Calendar.APRIL, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.FURNITUREDECOR, 2, 2, false));
+        order.addOrderItem(new OrderItem(ProductType.FURNITUREDECOR, 2, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath63() {
+        calendar.set(2019, Calendar.MAY, 30);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.FURNITUREDECOR, 1, 3, false));
+        order.addOrderItem(new OrderItem(ProductType.FURNITUREDECOR, 1, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath64() {
+        calendar.set(2017, Calendar.OCTOBER, 10);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.VIDEO, 1, 2, false));
+        order.addOrderItem(new OrderItem(ProductType.VIDEO, 2, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath65() {
+        calendar.set(2017, Calendar.JANUARY, 01);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.VIDEO, 2, 1, false));
+        order.addOrderItem(new OrderItem(ProductType.VIDEO, 3, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath66() {
+        calendar.set(2019, Calendar.JANUARY, 01);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.VIDEO, 1, 3, false));
+        order.addOrderItem(new OrderItem(ProductType.VIDEO, 1, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath67() {
+        calendar.set(2019, Calendar.MAY, 30);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.VIDEO, 3, 1, false));
+        order.addOrderItem(new OrderItem(ProductType.VIDEO, 2, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath68() {
+        calendar.set(2016, Calendar.APRIL, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.ELECTRONICS, 1, 2, false));
+        order.addOrderItem(new OrderItem(ProductType.ELECTRONICS, 3, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath69() {
+        calendar.set(2019, Calendar.MAY, 30);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 1, 1, false));
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 4, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath70() {
+        calendar.set(2018, Calendar.FEBRUARY, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 2, 900, true));
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 450, false));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath71() {
+        calendar.set(2018, Calendar.FEBRUARY, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 250, false));
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 2, 450, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath72() {
+        calendar.set(2018, Calendar.FEBRUARY, 15);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 1000, false));
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 450, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath73() {
+        calendar.set(2018, Calendar.FEBRUARY, 30);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 450, true));
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 2, 1200, false));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath74() {
+        calendar.set(2018, Calendar.MARCH, 10);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 2, 320, false));
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 650, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
 }

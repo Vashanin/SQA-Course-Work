@@ -15,6 +15,7 @@ import java.util.Date;
  * @author Dan Tavrov
  *
  */
+
 public class TotalDeposit {
 	//the order being sold
 	private Order order;
