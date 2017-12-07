@@ -365,19 +365,24 @@ public class FixedTotalDeposit {
 
     private double getShippingRate(ProductType productType,
                                    ShipmentType shipmentType){
+
+        double shippingRate = 0.0;
+
         switch (productType){
             case BOOKS:
                 switch (shipmentType){
                     case DOMESTIC:
-                        return 3.99;
+                        shippingRate = 3.99;
+                        break;
                     case DOMESTIC_EXPEDITED:
-                        return 6.99;
+                        shippingRate = 6.99;
+                        break;
                     case INTERNATIONAL:
-                        return 16.95;
+                        shippingRate = 16.95;
+                        break;
                     case INTERNATIONAL_EXPEDITED:
-                        return 46.50;
-                    default:
-                        return 0.00;
+                        shippingRate = 46.50;
+                        break;
                 }
 
                 /*
@@ -411,7 +416,8 @@ public class FixedTotalDeposit {
                  */
                 switch (shipmentType){
                     case DOMESTIC:
-                        return 3.99;
+                        shippingRate = 3.99;
+                        break;
                     case DOMESTIC_EXPEDITED:
                         /*
                         * BUG!!!
@@ -420,47 +426,57 @@ public class FixedTotalDeposit {
                         * Вартість доставки 6.19$, а не 6.99$.
                         *
                         * */
-                        return 6.99;
+                        shippingRate = 6.99;
+                        break;
                     case INTERNATIONAL:
-                        return 14.95;
+                        shippingRate = 14.95;
+                        break;
                     case INTERNATIONAL_EXPEDITED:
-                        return 46.50;
-                    default:
-                        return 0.00;
+                        shippingRate = 46.50;
+                        break;
                 }
             case VIDEO:
                 switch (shipmentType){
                     case DOMESTIC:
-                        return 3.99;
+                        shippingRate = 3.99;
+                        break;
                     case DOMESTIC_EXPEDITED:
-                        return 6.19;
+                        shippingRate = 6.19;
+                        break;
                     case INTERNATIONAL:
-                        return 14.95;
+                        shippingRate = 14.95;
+                        break;
                     case INTERNATIONAL_EXPEDITED:
-                        return 46.50;
-                    default:
-                        return 0.00;
+                        shippingRate = 46.50;
+                        break;
                 }
             default:
                 switch (shipmentType){
                     case DOMESTIC:
-                        return 4.49;
+                        shippingRate = 4.49;
+                        break;
                     case DOMESTIC_EXPEDITED:
-                        return 6.49;
+                        shippingRate = 6.49;
+                        break;
                     case INTERNATIONAL:
-                        return 24.95;
+                        shippingRate = 24.95;
+                        break;
                     case INTERNATIONAL_EXPEDITED:
-                        return 66.50;
-                    default:
-                        return 0.00;
+                        shippingRate = 66.50;
+                        break;
                 }
         }
+
+        return shippingRate;
     }
 
     private double getGiftWrapRate(ProductType productType){
+        double giftWrapRate = 0.0;
+
         switch (productType){
             case CLOTHING:
-                return 6.99;
+                giftWrapRate = 6.99;
+                break;
             case ELECTRONICS:
                 /*
                  * BUG!!!
@@ -469,71 +485,110 @@ public class FixedTotalDeposit {
                  * Для ELECTRONICS вартість обгортки становить 11.99$, а не 10.99;
                  *
                  */
-                return 11.99;
+                giftWrapRate = 11.99;
+                break;
             case FURNITUREDECOR:
-                return 24.99;
+                giftWrapRate = 24.99;
+                break;
             case JEWELRY:
-                return 3.79;
+                giftWrapRate = 3.79;
+                break;
             case WATCHES:
-                return 2.99;
+                giftWrapRate = 2.99;
+                break;
             default:
-                return 0.0;
+                giftWrapRate = 0.0;
+                break;
         }
+
+        return giftWrapRate;
     }
 
+    /*
+    * BUG!!!
+    *
+    * # 16
+    *
+    * Недосяжний участок коду в default.
+    * */
     private double getReferralFeeRate(ProductType productType) {
+        double referralFeeRate = 0.0;
+
         switch (productType){
             case BOOKS:
-                return 0.15;
+                referralFeeRate = 0.15;
+                break;
             case CLOTHING:
-                return 0.15;
+                referralFeeRate = 0.15;
+                break;
             case ELECTRONICS:
-                return 0.08;
+                referralFeeRate = 0.08;
+                break;
             case FURNITUREDECOR:
-                return 0.15;
+                referralFeeRate = 0.15;
+                break;
             case JEWELRY:
-                return 0.20;
+                referralFeeRate = 0.20;
+                break;
             case MUSIC:
-                return 0.15;
+                referralFeeRate = 0.15;
+                break;
             case VIDEO:
-                return 0.15;
+                referralFeeRate = 0.15;
+                break;
             case WATCHES:
-                return 0.15;
-            default:
-                return 0.0;
+                referralFeeRate = 0.15;
+                break;
         }
+
+        return referralFeeRate;
     }
 
     private double getReferralFeeMinimum(ProductType productType){
+        double referralFeeMinimum = 0.0;
+
         switch (productType){
             case BOOKS:
-                return 0.00;
+                referralFeeMinimum = 0.00;
+                break;
             case CLOTHING:
-                return 1.00;
+                referralFeeMinimum = 1.00;
+                break;
             case ELECTRONICS:
-                return 1.00;
+                referralFeeMinimum = 1.00;
+                break;
             case FURNITUREDECOR:
-                return 1.00;
+                referralFeeMinimum = 1.00;
+                break;
             case JEWELRY:
-                return 2.00;
+                referralFeeMinimum = 2.00;
+                break;
             case MUSIC:
-                return 0.00;
+                referralFeeMinimum = 0.00;
+                break;
             case VIDEO:
-                return 0.00;
+                referralFeeMinimum = 0.00;
+                break;
             case WATCHES:
-                return 2.00;
-            default:
-                return 0.00;
+                referralFeeMinimum = 2.00;
+                break;
         }
+
+        return referralFeeMinimum;
     }
 
     private double getVariableClosingFree(ProductType productType,
                                           ShipmentType shipmentType){
+
+        double variableClosingFee = 0.0;
+
         switch (productType){
             case BOOKS:
-                return 1.35;
+                variableClosingFee = 1.35;
+                break;
             case VIDEO:
-                return 1.35;
+                variableClosingFee = 1.35;
+                break;
             case MUSIC:
                 /*
                 * BUG!!!
@@ -542,20 +597,25 @@ public class FixedTotalDeposit {
                 * Variable closing fees don't apply to music
                 *
                 * */
-                return 0.0;
+                variableClosingFee = 0.0;
+                break;
             default:
                 switch (shipmentType){
                     case DOMESTIC:
-                        return 0.45;
+                        variableClosingFee = 0.45;
+                        break;
                     case DOMESTIC_EXPEDITED:
-                        return 0.65;
+                        variableClosingFee = 0.65;
+                        break;
                     case INTERNATIONAL:
-                        return 0.95;
+                        variableClosingFee = 0.95;
+                        break;
                     case INTERNATIONAL_EXPEDITED:
-                        return 1.15;
-                    default:
-                        return 0.0;
+                        variableClosingFee = 1.15;
+                        break;
                 }
         }
+
+        return variableClosingFee;
     }
 }
