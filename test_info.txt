@@ -1,0 +1,89 @@
+Bug #1
+Troubles with FREE_SHIPPING_ELECTRONICS_LIMIT.
+
+Handled by:
+    >
+    >
+    >
+    >
+    >
+    >
+
+
+Bug #2
+Troubles with monthes.
+
+Handled by:
+    > whiteBoxStatement1
+    > whiteBoxConditional5
+    > whiteBoxBasicPath76
+    >
+    >
+    >
+
+
+Bug #3
+Troubles with time.
+
+Handled by:
+    >
+    >
+    >
+    >
+    >
+    >
+
+
+Bug #4
+Troubles with INTERNATIONAL shipping.
+
+Handled by:
+    >
+    >
+    >
+    >
+    >
+    >
+
+
+Bug #5
+Troubles with FURNITURE_DECOR shipping.
+
+Handled by:
+    >
+    >
+    >
+    >
+    >
+    >
+
+
+Bug #6
+Troubles with INTERNATIONAL shipping.
+
+Handled by:
+    >
+    >
+    >
+    >
+    >
+    >
+
+
+Bug #7
+Troubles with INTERNATIONAL shipping.
+
+Handled by:
+    >
+    >
+    >
+    >
+    >
+    >
+
+
+Bug #10
+Troubles with amount of jewellery.
+
+Handled by:
+    whiteBoxBasicPath77

@@ -64,10 +64,11 @@ public class FixedTotalDeposit {
         * В Java розрахунок місяців починається з нуля
         *
         * WARNING!
-        * #17
+        * #3
         *
         * Розібратися з часом.
         * */
+
         calendar.set(2017, 11, 16, 0, 0, 1);
         jewelrySalesStartDate = calendar.getTime();
 
@@ -159,7 +160,7 @@ public class FixedTotalDeposit {
             /*
              * BUG!!!
              *
-             * №10
+             * №4
              *
              * Необхідно додати перевірку на тип доставки, оскільки INTERNATIONAL
              * доставка не може бути безкоштовною.
@@ -169,7 +170,7 @@ public class FixedTotalDeposit {
             /*
              * BUG!!!
              *
-             * #6
+             * #5
              *
              * Необхідно ввести перевірку на фурнітуру та декор, оскільки для неї відсутня
              * безкоштовна доставка
@@ -200,7 +201,7 @@ public class FixedTotalDeposit {
             /*
             * BUG!!!
             *
-            * #11
+            * #6
             * 0.99$ не включно
             *
             * */
@@ -241,9 +242,10 @@ public class FixedTotalDeposit {
                 /*
                  * BUG!!!
                  *
-                 * #3
+                 * #7
                  * Замінити totalWatchPrice на WATCH_REFERRAL_LIMIT2
                  */
+
                 totalDeposit +=
                         WATCH_REFERRAL_LIMIT1
                                 * (1.0 - WATCH_REFERRAL_RATE2) +
@@ -269,7 +271,7 @@ public class FixedTotalDeposit {
             /*
             * BUG!!!
             *
-            * #12
+            * #8
             * totalPrice рахується по кожному типу окремо
             *
             * */
@@ -287,7 +289,7 @@ public class FixedTotalDeposit {
                 /*
                 * BUG!!!
                 *
-                * #4
+                * #9
                 * FREE_SHIPPING_BOOK_LIMIT знак >= включно.
                 *
                 * */
@@ -299,7 +301,7 @@ public class FixedTotalDeposit {
             /*
              * BUG!!!
              *
-             * # 5
+             * #10
              * Див. помилку №1. Зайва перевірка для електроніки.
              *
              * else if (productType == ProductType.ELECTRONICS){
@@ -334,7 +336,7 @@ public class FixedTotalDeposit {
                 order.getDate().before(jewelrySalesEndDate)){
             //calculate total price of all jewelry items
             double totalJewelryPrice = 0.0;
-            
+
             //keep track of the number of jewelry items in the order
             int jewelryCount = 0;
 
@@ -345,7 +347,7 @@ public class FixedTotalDeposit {
                     /*
                      * BUG!!!
                      *
-                     * #13
+                     * #11
                      *
                      * Необхідно рахувати усі одиниці ювелірних виробів, а не одиниці
                      * замовлень з ними
@@ -390,7 +392,7 @@ public class FixedTotalDeposit {
                 /*
                     BUG!!!
 
-                    # 7
+                    # 12
                     Для Clothing не визначено окремої вартості доставки
 
                     case CLOTHING:
@@ -412,7 +414,7 @@ public class FixedTotalDeposit {
                 /*
                  * BUG!!!
                  *
-                 * #14
+                 * #13
                  * Замість order.getShipmentType() необхідно вкахувати просто
                  * shipmentType
                  */
@@ -424,7 +426,7 @@ public class FixedTotalDeposit {
                         /*
                         * BUG!!!
                         *
-                        * # 15
+                        * # 14
                         * Вартість доставки 6.19$, а не 6.99$.
                         *
                         * */
@@ -483,7 +485,7 @@ public class FixedTotalDeposit {
                 /*
                  * BUG!!!
                  *
-                 * №8
+                 * №15
                  * Для ELECTRONICS вартість обгортки становить 11.99$, а не 10.99;
                  *
                  */
@@ -595,7 +597,7 @@ public class FixedTotalDeposit {
                 /*
                 * BUG!!!
                 *
-                * #9
+                * #17
                 * Variable closing fees don't apply to music
                 *
                 * */

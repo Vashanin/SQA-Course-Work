@@ -240,7 +240,7 @@ public class Statement {
 
     @Test
     public void whiteBoxStatement12() {
-        calendar.set(2018, Calendar.JANUARY, 20);
+        calendar.set(2017, Calendar.FEBRUARY, 20);
 
         Order order = new Order();
 

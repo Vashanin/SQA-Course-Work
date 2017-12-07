@@ -1458,4 +1458,43 @@ public class BasicPath {
 
         assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
     }
+
+
+    @Test
+    public void whiteBoxBasicPath76() {
+        calendar.set(2017, Calendar.OCTOBER, 10);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 1, 501, false));
+        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 2, 1, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+
+    @Test
+    public void whiteBoxBasicPath77() {
+        calendar.set(2017, Calendar.JANUARY, 31);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 1, 300, true));
+        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 1, 300, false));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
 }
