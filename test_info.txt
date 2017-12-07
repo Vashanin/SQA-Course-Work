@@ -134,8 +134,8 @@ Troubles with amount of jewellery.
 Handled by:
     White box:
     > whiteBoxBasicPath77
-    >
-    >
+    > whiteBoxStatement7
+    > whiteBoxConditional0
 
     Black box:
     >
@@ -174,4 +174,52 @@ Handled by:
     White box:
     > whiteBoxStatement2
     > whiteBoxConditional18
-    > 
+    > whiteBoxBasicPath18
+
+    Black box:
+    >
+    >
+    >
+
+
+Bug #15
+Electronic gift wrap.
+
+Handled by:
+    White box:
+    > whiteBoxStatement13
+    > whiteBoxConditional33
+    > whiteBoxBasicPath33
+
+    Black box:
+    >
+    >
+    >
+
+
+Bug #16
+Unreaching code.
+
+Handled by:
+    White box code coverage.
+
+
+Bug #17
+Variable closing fees don't apply to music
+
+Handled by:
+    White box:
+    > whiteBoxStatement19
+    > whiteBoxConditional17
+    > whiteBoxBasicPath52
+
+    Black box:
+    >
+    >
+    >
+
+
+
+
+
+

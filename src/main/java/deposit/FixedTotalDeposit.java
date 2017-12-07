@@ -485,7 +485,7 @@ public class FixedTotalDeposit {
                 /*
                  * BUG!!!
                  *
-                 * №15
+                 * #15
                  * Для ELECTRONICS вартість обгортки становить 11.99$, а не 10.99;
                  *
                  */
