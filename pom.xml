@@ -54,7 +54,7 @@
                         <param>deposit.TotalDeposit</param>
                     </targetClasses>
                     <reportsDirectory>
-                        /home/vashanin/
+                        /home/vashanin/SQA-Coverage/
                     </reportsDirectory>
                     <targetTests>
                         <param>blackBox.ThreeWay</param>

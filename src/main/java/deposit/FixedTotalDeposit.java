@@ -334,7 +334,7 @@ public class FixedTotalDeposit {
                 order.getDate().before(jewelrySalesEndDate)){
             //calculate total price of all jewelry items
             double totalJewelryPrice = 0.0;
-
+            
             //keep track of the number of jewelry items in the order
             int jewelryCount = 0;
 

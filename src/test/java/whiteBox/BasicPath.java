@@ -1440,4 +1440,22 @@ public class BasicPath {
 
         assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
     }
+
+    @Test
+    public void whiteBoxBasicPath75() {
+        calendar.set(2018, Calendar.MARCH, 10);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 2, -3, false));
+        order.addOrderItem(new OrderItem(ProductType.ELECTRONICS, 0, -5, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
 }
