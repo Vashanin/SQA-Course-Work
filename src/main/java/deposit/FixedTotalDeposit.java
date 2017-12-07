@@ -64,18 +64,20 @@ public class FixedTotalDeposit {
         * В Java розрахунок місяців починається з нуля
         *
         * WARNING!
+        * #17
+        *
         * Розібратися з часом.
         * */
-        calendar.set(2017, 11, 16);
+        calendar.set(2017, 11, 16, 0, 0, 1);
         jewelrySalesStartDate = calendar.getTime();
 
-        calendar.set(2018, 2, 30);
+        calendar.set(2018, 2, 30, 23, 59, 59);
         jewelrySalesEndDate = calendar.getTime();
 
-        calendar.set(2018, 0, 16);
+        calendar.set(2018, 0, 16, 0, 0, 1);
         watchReferralStartDate = calendar.getTime();
 
-        calendar.set(2018, 8, 30);
+        calendar.set(2018, 8, 30, 23, 59, 59);
         watchReferralEndDate = calendar.getTime();
     }
 
@@ -471,7 +473,7 @@ public class FixedTotalDeposit {
     }
 
     private double getGiftWrapRate(ProductType productType){
-        double giftWrapRate = 0.0;
+        double giftWrapRate;
 
         switch (productType){
             case CLOTHING:
