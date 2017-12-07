@@ -53,8 +53,11 @@
                     <targetClasses>
                         <param>deposit.TotalDeposit</param>
                     </targetClasses>
+                    <reportsDirectory>
+                        /home/vashanin/
+                    </reportsDirectory>
                     <targetTests>
-                        <param>whiteBox.Conditional</param>
+                        <param>blackBox.ThreeWay</param>
                     </targetTests>
                 </configuration>
             </plugin>

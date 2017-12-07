@@ -2,101 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2007c353-a471-4dbe-b0b3-ad4789db85a3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deposit/.classes/FixedTotalDeposit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deposit/.classes/TotalDeposit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deposit/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deposit/index_SORT_BY_BLOCK.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deposit/index_SORT_BY_BLOCK_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deposit/index_SORT_BY_CLASS.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deposit/index_SORT_BY_CLASS_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deposit/index_SORT_BY_LINE.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deposit/index_SORT_BY_LINE_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deposit/index_SORT_BY_METHOD.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deposit/index_SORT_BY_METHOD_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/deposit/index_SORT_BY_NAME_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.css/coverage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.img/arrowDown.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.img/arrowUp.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blackBox/.classes/OneWay.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blackBox/.classes/ParseFile.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blackBox/.classes/ThreeWay.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blackBox/.classes/TwoWay.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blackBox/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blackBox/index_SORT_BY_BLOCK.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blackBox/index_SORT_BY_BLOCK_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blackBox/index_SORT_BY_CLASS.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blackBox/index_SORT_BY_CLASS_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blackBox/index_SORT_BY_LINE.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blackBox/index_SORT_BY_LINE_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blackBox/index_SORT_BY_METHOD.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blackBox/index_SORT_BY_METHOD_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/blackBox/index_SORT_BY_NAME_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/deposit/.classes/FixedTotalDeposit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/deposit/.classes/TotalDeposit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/deposit/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/deposit/index_SORT_BY_BLOCK.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/deposit/index_SORT_BY_BLOCK_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/deposit/index_SORT_BY_CLASS.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/deposit/index_SORT_BY_CLASS_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/deposit/index_SORT_BY_LINE.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/deposit/index_SORT_BY_LINE_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/deposit/index_SORT_BY_METHOD.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/deposit/index_SORT_BY_METHOD_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/deposit/index_SORT_BY_NAME_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index_SORT_BY_BLOCK.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index_SORT_BY_BLOCK_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index_SORT_BY_CLASS.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index_SORT_BY_CLASS_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index_SORT_BY_LINE.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index_SORT_BY_LINE_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index_SORT_BY_METHOD.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index_SORT_BY_METHOD_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/index_SORT_BY_NAME_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/order/.classes/Order.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/order/.classes/OrderItem.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/order/.classes/ProductType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/order/.classes/ShipmentType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/order/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/order/index_SORT_BY_BLOCK.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/order/index_SORT_BY_BLOCK_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/order/index_SORT_BY_CLASS.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/order/index_SORT_BY_CLASS_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/order/index_SORT_BY_LINE.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/order/index_SORT_BY_LINE_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/order/index_SORT_BY_METHOD.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/order/index_SORT_BY_METHOD_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/order/index_SORT_BY_NAME_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/whiteBox/.classes/BasicPath.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/whiteBox/.classes/Conditional.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/whiteBox/.classes/Statement.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/whiteBox/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/whiteBox/index_SORT_BY_BLOCK.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/whiteBox/index_SORT_BY_BLOCK_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/whiteBox/index_SORT_BY_CLASS.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/whiteBox/index_SORT_BY_CLASS_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/whiteBox/index_SORT_BY_LINE.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/whiteBox/index_SORT_BY_LINE_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/whiteBox/index_SORT_BY_METHOD.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/whiteBox/index_SORT_BY_METHOD_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/whiteBox/index_SORT_BY_NAME_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/.classes/Order.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/.classes/OrderItem.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/.classes/ProductType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/.classes/ShipmentType.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/index_SORT_BY_BLOCK.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/index_SORT_BY_BLOCK_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/index_SORT_BY_CLASS.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/index_SORT_BY_CLASS_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/index_SORT_BY_LINE.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/index_SORT_BY_LINE_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/index_SORT_BY_METHOD.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/index_SORT_BY_METHOD_DESC.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/order/index_SORT_BY_NAME_DESC.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SQA-Course-Work.iml" afterPath="$PROJECT_DIR$/SQA-Course-Work.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/whiteBox/Conditional.java" afterPath="$PROJECT_DIR$/src/test/java/whiteBox/Conditional.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/deposit/TotalDeposit.java" afterPath="$PROJECT_DIR$/src/main/java/deposit/TotalDeposit.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -108,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/SQA_Course_Work$SQA.coverage" NAME="SQA Coverage Results" MODIFIED="1512581938182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/SQA_Course_Work$SQA.coverage" NAME="SQA Coverage Results" MODIFIED="1512598929034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
       <FILTER>deposit.TotalDeposit</FILTER>
     </SUITE>
   </component>
@@ -136,8 +46,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="58" column="32" lean-forward="false" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+            <state relative-caret-position="433">
+              <caret line="57" column="39" lean-forward="false" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
               <folding>
                 <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
               </folding>
@@ -148,15 +58,21 @@
       <file leaf-file-name="TotalDeposit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/deposit/TotalDeposit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="421" column="20" lean-forward="false" selection-start-line="421" selection-start-column="20" selection-end-line="421" selection-end-column="20" />
+            <state relative-caret-position="340">
+              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1775#1776#0" expanded="true" />
-                <element signature="e#1794#1795#0" expanded="true" />
-                <element signature="e#1831#1832#0" expanded="true" />
-                <element signature="e#1867#1868#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ThreeWay.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/blackBox/ThreeWay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,24 +90,44 @@
       <file leaf-file-name="FixedTotalDeposit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/deposit/FixedTotalDeposit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="114" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="560" selection-end-column="1" />
+            <state relative-caret-position="180">
+              <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2187#2188#0" expanded="true" />
-                <element signature="e#2215#2216#0" expanded="true" />
-                <element signature="e#2255#2256#0" expanded="true" />
-                <element signature="e#2300#2301#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conditional.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Conditional.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/whiteBox/Conditional.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="473">
+              <caret line="800" column="1" lean-forward="false" selection-start-line="800" selection-start-column="1" selection-end-line="800" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OneWay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/blackBox/OneWay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="460" column="1" lean-forward="false" selection-start-line="460" selection-start-column="1" selection-end-line="460" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoWay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/blackBox/TwoWay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-146507">
+              <caret line="2373" column="42" lean-forward="false" selection-start-line="2373" selection-start-column="42" selection-end-line="2373" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -202,8 +138,8 @@
       <file leaf-file-name="Statement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/whiteBox/Statement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+            <state relative-caret-position="279">
+              <caret line="603" column="0" lean-forward="false" selection-start-line="603" selection-start-column="0" selection-end-line="603" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,21 +150,11 @@
       <file leaf-file-name="BasicPath.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/whiteBox/BasicPath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1310" column="0" lean-forward="true" selection-start-line="1310" selection-start-column="0" selection-end-line="1347" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="1443" column="0" lean-forward="false" selection-start-line="1443" selection-start-column="0" selection-end-line="1443" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tests.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -267,12 +193,12 @@
         <option value="$PROJECT_DIR$/src/test/java/whiteBox/Basicpath.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests.java" />
         <option value="$PROJECT_DIR$/src/test/java/whiteBox/Statement.java" />
-        <option value="$PROJECT_DIR$/src/test/java/blackBox/ThreeWay.java" />
         <option value="$PROJECT_DIR$/src/main/java/deposit/FixedTotalDeposit.java" />
         <option value="$PROJECT_DIR$/src/test/java/whiteBox/BasicPath.java" />
+        <option value="$PROJECT_DIR$/src/test/java/whiteBox/Conditional.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/deposit/TotalDeposit.java" />
-        <option value="$PROJECT_DIR$/src/test/java/whiteBox/Conditional.java" />
+        <option value="$PROJECT_DIR$/src/test/java/blackBox/ThreeWay.java" />
       </list>
     </option>
   </component>
@@ -307,6 +233,193 @@
     <option name="y" value="-4" />
     <option name="width" value="1920" />
     <option name="height" value="1084" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Correctness</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Internationalization</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Performance</id>
+          </State>
+          <State>
+            <id>Android &gt; Lint &gt; Security</id>
+          </State>
+          <State>
+            <id>Android Lint for Kotlin</id>
+          </State>
+          <State>
+            <id>Ant inspections</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Code maturity issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJava</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Control flow issuesJava</id>
+          </State>
+          <State>
+            <id>FlexUnit inspections</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Internationalization issuesJava</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>J2ME issuesJava</id>
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JUnit issuesJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaFX</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>Less</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Properties Files</id>
+          </State>
+          <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
+            <id>RESTful Web Service</id>
+          </State>
+          <State>
+            <id>Resource management issuesJava</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Sass/SCSS</id>
+          </State>
+          <State>
+            <id>Serialization issuesJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring BootSpring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring IntegrationSpring</id>
+          </State>
+          <State>
+            <id>Spring WebSocketSpring</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+          <State>
+            <id>Thymeleaf</id>
+          </State>
+          <State>
+            <id>TypeScript</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+          <State>
+            <id>WebSocket issues</id>
+          </State>
+          <State>
+            <id>XML</id>
+          </State>
+          <State>
+            <id>XMLSpring CoreSpring</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -486,15 +599,20 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="SearchEverywhereHistoryKey" value="Sona&#9;ACTION&#9;ActivateSonarQubeToolWindow" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -915,7 +1033,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="blackBox" />
-      <option name="MAIN_CLASS_NAME" value="blackBox.OneWay" />
+      <option name="MAIN_CLASS_NAME" value="blackBox.ThreeWay" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -958,44 +1076,45 @@
       <workItem from="1512491296955" duration="2729000" />
       <workItem from="1512497488015" duration="4512000" />
       <workItem from="1512509924517" duration="624000" />
-      <workItem from="1512563255037" duration="20171000" />
+      <workItem from="1512563255037" duration="22382000" />
+      <workItem from="1512587210986" duration="11315000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SQA - 2017.12.06 at 19h 11m 42s.xml">
+    <history-entry file="SQA - 2017.12.06 at 22h 42m 39s.xml">
       <configuration name="SQA" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SQA - 2017.12.06 at 19h 12m 03s.xml">
+    <history-entry file="SQA - 2017.12.06 at 23h 38m 55s.xml">
       <configuration name="SQA" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SQA - 2017.12.06 at 19h 19m 11s.xml">
+    <history-entry file="SQA - 2017.12.07 at 00h 01m 57s.xml">
       <configuration name="SQA" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SQA - 2017.12.06 at 19h 32m 14s.xml">
+    <history-entry file="SQA - 2017.12.07 at 00h 02m 23s.xml">
       <configuration name="SQA" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SQA - 2017.12.06 at 19h 32m 26s.xml">
+    <history-entry file="SQA - 2017.12.07 at 00h 21m 13s.xml">
       <configuration name="SQA" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SQA - 2017.12.06 at 19h 35m 55s.xml">
+    <history-entry file="SQA - 2017.12.07 at 00h 22m 13s.xml">
       <configuration name="SQA" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SQA - 2017.12.06 at 19h 38m 11s.xml">
+    <history-entry file="SQA - 2017.12.07 at 00h 33m 32s.xml">
       <configuration name="SQA" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SQA - 2017.12.06 at 19h 38m 14s.xml">
+    <history-entry file="SQA - 2017.12.07 at 00h 34m 01s.xml">
       <configuration name="SQA" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SQA - 2017.12.06 at 19h 38m 59s.xml">
+    <history-entry file="SQA - 2017.12.07 at 00h 35m 03s.xml">
       <configuration name="SQA" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SQA - 2017.12.06 at 20h 12m 20s.xml">
+    <history-entry file="SQA - 2017.12.07 at 01h 20m 08s.xml">
       <configuration name="SQA" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36471000" />
+    <option name="totallyTimeSpent" value="49997000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -1013,13 +1132,14 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.4946071" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18569905" sideWeight="0.48626044" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.4946071" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.48844376" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32985386" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14727855" sideWeight="0.4946071" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14727855" sideWeight="0.4946071" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1028,10 +1148,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32254696" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14727855" sideWeight="0.5053929" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1263048" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18569905" sideWeight="0.5137395" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21985058" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20384204" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1112,7 +1232,7 @@
         <state relative-caret-position="3221640">
           <caret line="161082" column="37" lean-forward="true" selection-start-line="161082" selection-start-column="37" selection-end-line="161082" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1143,10 +1263,6 @@
           <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2187#2188#0" expanded="true" />
-            <element signature="e#2215#2216#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-            <element signature="e#2300#2301#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1155,7 +1271,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1172,7 +1287,7 @@
         <state relative-caret-position="11800">
           <caret line="601" column="28" lean-forward="false" selection-start-line="601" selection-start-column="28" selection-end-line="601" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1203,10 +1318,6 @@
           <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2187#2188#0" expanded="true" />
-            <element signature="e#2215#2216#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-            <element signature="e#2300#2301#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1215,7 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1224,7 +1334,7 @@
         <state relative-caret-position="12020">
           <caret line="601" column="28" lean-forward="true" selection-start-line="601" selection-start-column="28" selection-end-line="601" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1253,10 +1363,6 @@
           <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2187#2188#0" expanded="true" />
-            <element signature="e#2215#2216#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-            <element signature="e#2300#2301#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1265,7 +1371,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,7 +1379,7 @@
         <state relative-caret-position="10960">
           <caret line="559" column="0" lean-forward="false" selection-start-line="559" selection-start-column="0" selection-end-line="559" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1305,10 +1410,6 @@
           <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2187#2188#0" expanded="true" />
-            <element signature="e#2215#2216#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-            <element signature="e#2300#2301#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1317,7 +1418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1326,7 +1426,7 @@
         <state relative-caret-position="10960">
           <caret line="559" column="0" lean-forward="true" selection-start-line="559" selection-start-column="0" selection-end-line="559" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1367,10 +1467,6 @@
           <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2187#2188#0" expanded="true" />
-            <element signature="e#2215#2216#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-            <element signature="e#2300#2301#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1379,7 +1475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1418,25 +1513,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/deposit-output-1way.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/deposit-output-2ways.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/deposit-output-3ways.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/deposit-output-2ways.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/deposit-output-3ways.csv" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
           <caret line="23" column="5" lean-forward="false" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1464,31 +1546,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/blackBox/OneWay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/blackBox/TwoWay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1500,68 +1562,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/blackBox/ThreeWay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/deposit/FixedTotalDeposit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="114" column="13" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="560" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2187#2188#0" expanded="true" />
-            <element signature="e#2215#2216#0" expanded="true" />
-            <element signature="e#2255#2256#0" expanded="true" />
-            <element signature="e#2300#2301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="58" column="32" lean-forward="false" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-          <folding>
-            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/deposit/TotalDeposit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="421" column="20" lean-forward="false" selection-start-line="421" selection-start-column="20" selection-end-line="421" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1794#1795#0" expanded="true" />
-            <element signature="e#1831#1832#0" expanded="true" />
-            <element signature="e#1867#1868#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/whiteBox/Statement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/whiteBox/BasicPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1310" column="0" lean-forward="true" selection-start-line="1310" selection-start-column="0" selection-end-line="1347" selection-end-column="0" />
+        <state relative-caret-position="279">
+          <caret line="603" column="0" lean-forward="false" selection-start-line="603" selection-start-column="0" selection-end-line="603" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1570,13 +1574,169 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/whiteBox/Conditional.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="473">
+          <caret line="800" column="1" lean-forward="false" selection-start-line="800" selection-start-column="1" selection-end-line="800" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/whiteBox/BasicPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="1443" column="0" lean-forward="false" selection-start-line="1443" selection-start-column="0" selection-end-line="1443" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/blackBox/OneWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="460" column="1" lean-forward="false" selection-start-line="460" selection-start-column="1" selection-end-line="460" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/blackBox/TwoWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146507">
+          <caret line="2373" column="42" lean-forward="false" selection-start-line="2373" selection-start-column="42" selection-end-line="2373" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="57" column="39" lean-forward="false" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+          <folding>
+            <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/deposit/FixedTotalDeposit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="53" column="22" lean-forward="false" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/deposit/TotalDeposit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/blackBox/ThreeWay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SQA-Course-Work</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
