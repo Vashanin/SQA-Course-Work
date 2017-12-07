@@ -78,8 +78,8 @@ Bug #6
 
 Handled by(only black box, domain fault):
     Black box:
-    >
-    >
+    > blackBox128
+    > blackBoxOneWay1
     >
 
 
@@ -217,6 +217,12 @@ Handled by:
     >
     >
     >
+
+
+Bug #18
+Unreaching code.
+
+Handled by white box code coverage.
 
 
 

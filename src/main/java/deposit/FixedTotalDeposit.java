@@ -130,8 +130,13 @@ public class FixedTotalDeposit {
                 if (orderItem.getPrice()
                         * getReferralFeeRate(orderItem.getProductType())
                         > getReferralFeeMinimum(orderItem.getProductType())){
-                    if (jewelrySalesApplicable &&
-                            orderItem.getProductType() == ProductType.JEWELRY){
+                    /*
+                    * BUG!!!
+                    *
+                    * Надлишкова перевірка
+                    * */
+
+                    if (jewelrySalesApplicable){
                         totalDeposit += orderItem.getTotalPrice() *
                                 (JEWELRY_SALES_RATE - getReferralFeeRate(ProductType.JEWELRY));
                     }
@@ -141,8 +146,7 @@ public class FixedTotalDeposit {
                     }
                 }
                 else{
-                    if (jewelrySalesApplicable &&
-                            orderItem.getProductType() == ProductType.JEWELRY){
+                    if (jewelrySalesApplicable){
                         totalDeposit += (orderItem.getTotalPrice() * JEWELRY_SALES_RATE)
                                 - (orderItem.getQuantity()
                                 * getReferralFeeMinimum(orderItem.getProductType()));

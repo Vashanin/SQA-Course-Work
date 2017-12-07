@@ -14,7 +14,7 @@ public class ThreeWay {
 
 	@Test
     public void test() throws Exception {
-        ParseFile csvFile = new ParseFile("LTotalDeposit3.csv");
+        ParseFile csvFile = new ParseFile("TotalDeposit3.csv");
 
         LinkedList<Order> testOrders = csvFile.getOrdersFromCSV();
 
