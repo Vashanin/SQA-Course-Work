@@ -2,9 +2,12 @@ Bug #1
 Troubles with FREE_SHIPPING_ELECTRONICS_LIMIT.
 
 Handled by:
-    >
-    >
-    >
+    White box:
+    > whiteBoxStatement6
+    > whiteBoxConditional13
+    > whiteBoxBasicPath13
+
+    Black box:
     >
     >
     >
@@ -14,9 +17,12 @@ Bug #2
 Troubles with monthes.
 
 Handled by:
+    White box:
     > whiteBoxStatement1
     > whiteBoxConditional5
     > whiteBoxBasicPath76
+
+    Black box:
     >
     >
     >
@@ -26,9 +32,12 @@ Bug #3
 Troubles with time.
 
 Handled by:
+    White box:
     >
     >
     >
+
+    Black box:
     >
     >
     >
@@ -38,9 +47,12 @@ Bug #4
 Troubles with INTERNATIONAL shipping.
 
 Handled by:
-    >
-    >
-    >
+    White box:
+    > whiteBoxStatement20
+    > whiteBoxConditional8
+    > whiteBoxBasicPath70
+
+    Black box:
     >
     >
     >
@@ -50,40 +62,116 @@ Bug #5
 Troubles with FURNITURE_DECOR shipping.
 
 Handled by:
-    >
-    >
-    >
+    White box:
+    > whiteBoxStatement5
+    > whiteBoxConditional13
+    > whiteBoxBasicPath27
+
+    Black box:
     >
     >
     >
 
 
 Bug #6
-Troubles with INTERNATIONAL shipping.
+0.99$ not inclusive
 
-Handled by:
-    >
-    >
-    >
+Handled by(only black box, domain fault):
+    Black box:
     >
     >
     >
 
 
 Bug #7
-Troubles with INTERNATIONAL shipping.
+Changing totalWatchPrice on WATCH_REFERRAL_LIMIT2
 
 Handled by:
+    White box:
+    > whiteBoxStatement28
+    > whiteBoxConditional8
+    > whiteBoxBasicPath8
+
+    White box:
     >
     >
     >
+
+
+Bug #8
+totalPrice troubles.
+
+Handled by:
+    White box:
+    > whiteBoxConditional4
+    > whiteBoxBasicPath4
+
+    Black box:
+    >
+    >
+    >
+
+
+Bug #9
+totalPrice troubles.
+
+Handled by:
+    Black box(only, domain fault):
     >
     >
     >
 
 
 Bug #10
+
+Handled by:
+    Same as with #1
+
+
+Bug #11
 Troubles with amount of jewellery.
 
 Handled by:
-    whiteBoxBasicPath77
+    White box:
+    > whiteBoxBasicPath77
+    >
+    >
+
+    Black box:
+    >
+    >
+    >
+
+
+
+Bug #12
+Clothing shipment
+
+Handled by:
+    White box:
+    > whiteBoxConditional23
+    > whiteBoxBasicPath23
+
+    Black box:
+    >
+    >
+    >
+
+Bug #13
+order.getShipmentType()
+
+Handled by:
+    White box:
+    >
+    >
+    >
+
+
+Bug #14
+Music shipment.
+
+Handled by:
+    White box:
+    > whiteBoxStatement2
+    > whiteBoxConditional18
+    > 

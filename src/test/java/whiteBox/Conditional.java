@@ -121,7 +121,7 @@ public class Conditional {
 
         Order order = new Order();
 
-        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 3, 250, true));
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 250, true));
         order.addOrderItem(new OrderItem(ProductType.WATCHES, 20, 21, false));
 
         order.setDate(calendar.getTime());

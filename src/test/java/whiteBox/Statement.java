@@ -20,10 +20,6 @@ public class Statement {
 
     @Test
     public void whiteBoxStatement0() {
-
-        calendar.set(2017, 12, 30);
-        System.out.println(calendar.get(Calendar.MONTH));
-
         calendar.set(2017, Calendar.OCTOBER, 10);
 
         Order order = new Order();
@@ -240,7 +236,7 @@ public class Statement {
 
     @Test
     public void whiteBoxStatement12() {
-        calendar.set(2017, Calendar.FEBRUARY, 20);
+        calendar.set(2018, Calendar.JANUARY, 20);
 
         Order order = new Order();
 
