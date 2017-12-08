@@ -57,7 +57,7 @@
                         /home/vashanin/SQA-Coverage/
                     </reportsDirectory>
                     <targetTests>
-                        <param>blackBox.ThreeWay</param>
+                        <param>whiteBox.BasicPath</param>
                     </targetTests>
                 </configuration>
             </plugin>

@@ -610,4 +610,178 @@ public class Statement {
 
         assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
     }
+
+    @Test
+    public void whiteBoxStatement33() {
+        calendar.set(2018, Calendar.NOVEMBER, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.VIDEO, 1, 0.9, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+    @Test
+    public void whiteBoxStatement34() {
+        calendar.set(2018, Calendar.NOVEMBER, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.VIDEO, 1, 0.9, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+    @Test
+    public void whiteBoxStatement35() {
+        calendar.set(2018, Calendar.NOVEMBER, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.VIDEO, 1, 0.9, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+    @Test
+    public void whiteBoxStatement36() {
+        calendar.set(2018, Calendar.NOVEMBER, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.VIDEO, 1, 0.9, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+    @Test
+    public void whiteBoxStatement37() {
+        calendar.set(2018, Calendar.NOVEMBER, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.CLOTHING, 1, 0.9, true));
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 1, 0.9, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+    @Test
+    public void whiteBoxStatement38() {
+        calendar.set(2018, Calendar.NOVEMBER, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.CLOTHING, 1, 0.9, true));
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 1, 0.9, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.DOMESTIC);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+    @Test
+    public void whiteBoxStatement39() {
+        calendar.set(2018, Calendar.NOVEMBER, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.CLOTHING, 1, 0.9, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL_EXPEDITED);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+    @Test
+    public void whiteBoxStatement40() {
+        calendar.set(2018, Calendar.NOVEMBER, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.CLOTHING, 1, 0.9, true));
+        order.addOrderItem(new OrderItem(ProductType.MUSIC, 1, 0.9, true));
+        order.addOrderItem(new OrderItem(ProductType.BOOKS, 1, 0.9, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+    @Test
+    public void whiteBoxStatement41() {
+        calendar.set(2018, Calendar.FEBRUARY, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 2, 542, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
+    @Test
+    public void whiteBoxStatement42() {
+        calendar.set(2018, 01, 20);
+
+        Order order = new Order();
+
+        order.addOrderItem(new OrderItem(ProductType.WATCHES, 1, 542, true));
+        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 1, 789, true));
+        order.addOrderItem(new OrderItem(ProductType.JEWELRY, 2, 0.5, true));
+
+        order.setDate(calendar.getTime());
+        order.setShipment(ShipmentType.INTERNATIONAL);
+
+        TotalDeposit deposit = new TotalDeposit(order);
+        FixedTotalDeposit fixedDeposit = new FixedTotalDeposit(order);
+
+        assertTrue(Math.abs(deposit.getTotalDeposit() - fixedDeposit.getTotalDeposit()) < 1e-10);
+    }
+
 }
